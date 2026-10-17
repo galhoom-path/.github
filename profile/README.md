@@ -36,12 +36,10 @@ Each repository in this organization teaches **one subject** using the same meth
 
 | Order | Repository | What you learn | Status |
 |:---:|:---|:---|:---|
-| **1** | 🐘 [php-fundamentals](https://github.com/Galhoom22/php-documentation-) <sub>*(moving here soon)*</sub> | Core PHP 8.5+ — variables, types, functions, arrays, web basics. **No OOP.** | 🟢 Active |
-| **2** | 🧩 [php-oop](https://github.com/Galhoom22/php-oop-documentation) <sub>*(moving here soon)*</sub> | Object-oriented PHP — classes, interfaces, traits, enums, exceptions, namespaces, PHPUnit | 🟢 Active |
+| **1** | 🐘 [php-fundamentals](https://github.com/galhoom-study-method/php-fundamentals) | Core PHP 8.5+ — variables, types, functions, arrays, web basics. **No OOP.** | 🟢 Active |
+| **2** | 🧩 [php-oop](https://github.com/galhoom-study-method/php-oop) | Object-oriented PHP — classes, interfaces, traits, enums, exceptions, namespaces, PHPUnit | 🟢 Active |
 | **3** | 🎯 `php-ood` | Object-oriented design — principles and patterns on top of OOP | ⬜ Planned |
 | **4+** | 🛠️ Laravel, Filament, tooling, backend stack… | Same method, next subjects in the path | ⬜ Planned |
-
-> 📌 Links above still point at the personal account until the repos are transferred into this organization. After the move they will live at `github.com/galhoom-study-method/...`.
 
 > 🧭 **Series rule:** a topic taught in one repo is **never** re-taught in another. If a lecture touches a neighbor’s topic, it gives one sentence and points there.
 
@@ -103,11 +101,11 @@ If you are new to PHP:
 
 | Step | Action |
 |:---:|:---|
-| **1️⃣** | Open **[🐘 PHP Fundamentals](https://github.com/Galhoom22/php-documentation-)** |
+| **1️⃣** | Open **[🐘 PHP Fundamentals](https://github.com/galhoom-study-method/php-fundamentals)** |
 | **2️⃣** | Read its root `README.md` |
 | **3️⃣** | Start **Lecture 01** |
 
-When Fundamentals is done → continue with **[🧩 PHP OOP](https://github.com/Galhoom22/php-oop-documentation)**.
+When Fundamentals is done → continue with **[🧩 PHP OOP](https://github.com/galhoom-study-method/php-oop)**.
 
 <br/>
 
