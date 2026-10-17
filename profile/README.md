@@ -111,6 +111,19 @@ When Fundamentals is done → continue with **[🧩 PHP OOP](https://github.com/
 
 ---
 
+
+---
+
+## 🧭 Global template (for maintainers)
+
+All study repos share one method file. The **source of truth** lives here:
+
+👉 **[study-template](https://github.com/galhoom-study-method/study-template)** → [`template.md`](https://github.com/galhoom-study-method/study-template/blob/main/template.md)
+
+When the method changes, update that repo first, then sync each study repo’s copy of `template.md`.
+
+---
+
 ## 🛠️ Maintainer
 
 Built and maintained by [**@Galhoom22**](https://github.com/Galhoom22) for personal study and for anyone who wants the same structured path.
