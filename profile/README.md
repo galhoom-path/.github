@@ -1,38 +1,57 @@
-# 📘 Galhoom Study Method
+# 🛤️ Galhoom Path
 
-### Structured, hands-on study paths for software engineering
+### Structured, hands-on tracks for becoming a stronger software engineer
 
-Each repository in this organization teaches **one subject** using the same method:
+This organization is one home for **three separate tracks**. They share the same spirit (structure, practice, official sources) — but they are **not the same kind of repo**.
 
 ```
-📚 Lectures  →  💼 Interview Questions  →  🏗️ Final Project
+📘 Study          →  learn a subject (Lectures → repo interview set → Final Project)
+🧠 Problem Solving →  master DSA patterns with real coding problems
+🎤 Interview Prep →  company-style / role interview practice (standalone repos)
+```
+
+> ⚠️ **Important:** *Interview questions inside a Study repo* are lecture-mapped practice for that subject.  
+> The **Interview Prep** track below is a **different** thing — dedicated interview repositories, not PHP/OOP lecture checklists.
+
+Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
+
+---
+
+## 🗺️ Pick a track
+
+| Track | What it is | Start here |
+|:---|:---|:---|
+| **📘 Study** | Ordered subject series. You write every line. Official docs. | [Learning Series](#-track-1--study-learning-series) |
+| **🧠 Problem Solving** | Pattern-focused problem sets (LeetCode / DSA). | [Problem Solving](#-track-2--problem-solving) |
+| **🎤 Interview Prep** | Standalone interview practice repos (not the folders inside Study repos). | [Interview Prep](#-track-3--interview-prep) |
+
+---
+
+## 📘 Track 1 — Study (Learning Series)
+
+Each Study repo teaches **one subject** with the same method:
+
+```
+📚 Lectures  →  💼 Interview Questions (subject-mapped)  →  🏗️ Final Project
 ```
 
 ✍️ You write every line of code yourself. Guides teach. Official documentation is the source of truth.  
 🔗 Repos form a **series with no repeated lessons** — each one starts exactly where the previous one stops.
 
-<br/>
-
----
-
-## 🚀 How to study here
+### How to study
 
 | Step | What you do |
 |:---:|:---|
-| **1️⃣** | Pick the **first repo you have not finished** in the [Learning Series](#-learning-series) below |
+| **1️⃣** | Pick the **first repo you have not finished** in the table below |
 | **2️⃣** | Open that repo’s root `README.md` and follow **How to Start** |
-| **3️⃣** | Study **one lecture per session**. Type every example into the empty `code-N` files. Run the code. Fill in the `review` study card yourself |
-| **4️⃣** | After all lectures, practice the **interview questions** (one per session) |
-| **5️⃣** | Build the **final project** milestone by milestone — your proof, not a tutorial copy-paste |
-| **6️⃣** | Move to the **next repo** in the series when the previous track is complete |
+| **3️⃣** | Study **one lecture per session**. Type every example. Run the code. Fill the review card |
+| **4️⃣** | After all lectures, practice the **subject interview questions** (one per session) |
+| **5️⃣** | Build the **final project** milestone by milestone |
+| **6️⃣** | Move to the **next Study repo** when the previous track is complete |
 
 > ✍️ **Rule:** the tutor (or AI assistant) shows and explains. **You** write, save, and run the code.
 
-<br/>
-
----
-
-## 🗺️ Learning Series
+### Learning Series
 
 | Order | Repository | What you learn | Status |
 |:---:|:---|:---|:---|
@@ -41,97 +60,75 @@ Each repository in this organization teaches **one subject** using the same meth
 | **3** | 🎯 `php-ood` | Object-oriented design — principles and patterns on top of OOP | ⬜ Planned |
 | **4+** | 🛠️ Laravel, Filament, tooling, backend stack… | Same method, next subjects in the path | ⬜ Planned |
 
-> 🧭 **Series rule:** a topic taught in one repo is **never** re-taught in another. If a lecture touches a neighbor’s topic, it gives one sentence and points there.
+> 🧭 **Series rule:** a topic taught in one Study repo is **never** re-taught in another.
 
-<br/>
-
----
-
-## 📁 What’s inside every study repo
+### What’s inside every Study repo
 
 ```
 📦 subject-repo/
 │
-├── 📂 01-Lectures/              ← 📚 curriculum + one folder per lecture
-│                                   (code stubs + review card)
-├── 📂 02-Interview-Questions/   ← 💼 practice questions mapped to lectures
-├── 📂 03-Final-Project/         ← 🏆 real capstone, built milestone by milestone
-├── 📄 README.md                 ← 📊 progress dashboard and how to start
-└── 📄 template.md               ← 🧭 the shared blueprint for this method
+├── 📂 01-Lectures/              ← curriculum + one folder per lecture
+├── 📂 02-Interview-Questions/   ← subject-mapped practice (NOT Track 3)
+├── 📂 03-Final-Project/         ← capstone, built milestone by milestone
+├── 📄 README.md                 ← progress dashboard and how to start
+└── 📄 template.md               ← shared Study blueprint
 ```
 
-<br/>
+Global Study blueprint: **[study-template](https://github.com/galhoom-study-method/study-template)** → [`template.md`](https://github.com/galhoom-study-method/study-template/blob/main/template.md)
 
 ---
 
-## 👤 Who this is for
+## 🧠 Track 2 — Problem Solving
 
-| You are… | This org helps you… |
-|:---|:---|
-| 🌱 A beginner who wants a clear path | Skip random tutorials — follow one ordered series |
-| 🔍 A self-taught developer | Fill gaps using **official sources** |
-| 🎤 Preparing for interviews | Practice questions **and** build something real |
-| ✍️ Someone who learns by doing | Type and run code — not watch only |
+Repos for **algorithms, data structures, and coding-problem practice**.  
+These are **not** Study repos (no lecture series / final project structure).
 
-🎓 No CS degree required. 📅 One session at a time.
+| Repository | Focus | Status |
+|:---|:---|:---|
+| 🧮 [LeetCode-DSA-Pareto-Set](https://github.com/galhoom-study-method/LeetCode-DSA-Pareto-Set) | 49 essential LeetCode problems covering core DSA interview patterns. Each problem: Brute Force → Optimized → Optimal (C++) + flowchart | 🟢 Active |
 
-<br/>
+**Method in this track:** deepen patterns by solving the highest-leverage problems thoroughly — not racing through volume.
 
 ---
 
-## ⭐ Principles (short)
+## 🎤 Track 3 — Interview Prep
+
+Dedicated repositories for **interview preparation** (behavioral, system design, role screens, mock loops, etc.).
+
+> This track is **separate** from `02-Interview-Questions/` inside Study repos.
+
+| Repository | Focus | Status |
+|:---|:---|:---|
+| — | Standalone interview prep repos coming soon | ⬜ Planned |
+
+---
+
+## ⭐ Shared principles
 
 | | Principle | Meaning |
 |:---:|:---|:---|
-| 📜 | **Official sources only** | PHP Manual, official docs, release notes — not random blogs |
-| 🔄 | **Latest stable version** | Repos stay current (living curriculum) |
-| 🎯 | **Max 2 new concepts per lecture** | Depth over dumping |
-| 🖼️ | **Analogy before code** | Understand the idea, then write it |
-| ✍️ | **You write all the code** | Show ≠ substitute for practice |
-| 🧱 | **No framework until the path says so** | Foundations first |
-| 🤝 | **Help yourself, help others** | Public repos others can follow the same way |
-
-<br/>
+| 📜 | **Official / primary sources** | Prefer manuals, docs, and trusted primary material |
+| ✍️ | **You do the work** | Reading ≠ mastery — write, run, explain |
+| 🎯 | **Depth over dump** | Few concepts or patterns per session |
+| 🧱 | **Foundations before frameworks** | Study track stays ordered on purpose |
+| 🤝 | **Public and reusable** | Others can follow the same path |
 
 ---
 
-## 🏁 Start here
+## 🏁 New here?
 
-If you are new to PHP:
-
-| Step | Action |
-|:---:|:---|
-| **1️⃣** | Open **[🐘 PHP Fundamentals](https://github.com/galhoom-study-method/php-fundamentals)** |
-| **2️⃣** | Read its root `README.md` |
-| **3️⃣** | Start **Lecture 01** |
-
-When Fundamentals is done → continue with **[🧩 PHP OOP](https://github.com/galhoom-study-method/php-oop)**.
-
-<br/>
-
----
-
-
----
-
-## 🧭 Global template (for maintainers)
-
-All study repos share one method file. The **source of truth** lives here:
-
-👉 **[study-template](https://github.com/galhoom-study-method/study-template)** → [`template.md`](https://github.com/galhoom-study-method/study-template/blob/main/template.md)
-
-When the method changes, update that repo first, then sync each study repo’s copy of `template.md`.
+| Goal | Do this |
+|:---|:---|
+| Learn PHP from zero | Start **[🐘 php-fundamentals](https://github.com/galhoom-study-method/php-fundamentals)** |
+| Practice DSA patterns | Open **[🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-study-method/LeetCode-DSA-Pareto-Set)** |
+| Dedicated interview prep | Track 3 — coming soon |
 
 ---
 
 ## 🛠️ Maintainer
 
-Built and maintained by [**@Galhoom22**](https://github.com/Galhoom22) for personal study and for anyone who wants the same structured path.
+Built and maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
 💬 Questions or improvements? Open an issue on the relevant repository.
 
-<div align="center">
-
-**📘 Read. ✍️ Write. 💬 Explain. 🏗️ Build. 🏅 Master.**
-
-</div>
+**📘 Study. 🧠 Solve. 🎤 Interview. 🏅 Master.**
