@@ -1,7 +1,7 @@
 # 🛤️ Galhoom Path
 
 > You are on the **Galhoom Path** organization homepage — the map for every repo below (**Study** · **Problem Solving** · **Interview Prep** · **Projects**).
-### Structured, hands-on tracks for becoming a stronger software engineer
+### Structured tracks for backend study, practice, interviews, and production projects
 
 This organization is one home for **four separate tracks**. They share the same spirit (structure, practice, official sources) — but they are **not the same kind of repo**.
 
@@ -9,7 +9,7 @@ This organization is one home for **four separate tracks**. They share the same 
 📘 Study           →  learn a subject (Lectures → repo interview set → Final Project)
 🧠 Problem Solving →  master DSA patterns with real coding problems
 🎤 Interview Prep  →  real interview answer banks / role prep (standalone repos)
-🏗️ Projects        →  real products / portfolio apps (shipped work, not Study capstones)
+🏗️ Projects        →  production / portfolio applications (not Study capstones)
 ```
 
 > ⚠️ **Important:** *Interview questions inside a Study repo* are lecture-mapped practice for that subject.  
@@ -27,7 +27,7 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 | **📘 Study** | Ordered subject series. You write every line. Official docs. | [Learning Series](#-track-1--study-learning-series) |
 | **🧠 Problem Solving** | Pattern-focused problem sets (LeetCode / DSA). | [Problem Solving](#-track-2--problem-solving) |
 | **🎤 Interview Prep** | Standalone interview answer banks (not the folders inside Study repos). | [Interview Prep](#-track-3--interview-prep) |
-| **🏗️ Projects** | Shipped products / portfolio apps (not Study final projects). | [Projects](#-track-4--projects) |
+| **🏗️ Projects** | Production and portfolio applications (not Study final projects). | [Projects](#-track-4--projects) |
 
 ---
 
