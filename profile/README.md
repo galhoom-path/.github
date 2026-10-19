@@ -83,8 +83,7 @@ Global Study blueprint: **[study-template](https://github.com/galhoom-path/study
 
 ## 🧠 Track 2 — Problem Solving
 
-Repos for **algorithms, data structures, and coding-problem practice**.  
-These are **not** Study repos (no lecture series / final project structure).
+Algorithms, data structures, and coding-interview patterns. **Not** Study repos.
 
 | Repository | Focus | Status |
 |:---|:---|:---|
