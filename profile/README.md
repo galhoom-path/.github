@@ -1,18 +1,20 @@
 # 🛤️ Galhoom Path
 
-> You are on the **Galhoom Path** organization homepage — the map for every repo below (**Study** · **Problem Solving** · **Interview Prep**).
+> You are on the **Galhoom Path** organization homepage — the map for every repo below (**Study** · **Problem Solving** · **Interview Prep** · **Projects**).
 ### Structured, hands-on tracks for becoming a stronger software engineer
 
-This organization is one home for **three separate tracks**. They share the same spirit (structure, practice, official sources) — but they are **not the same kind of repo**.
+This organization is one home for **four separate tracks**. They share the same spirit (structure, practice, official sources) — but they are **not the same kind of repo**.
 
 ```text
-📘 Study          →  learn a subject (Lectures → repo interview set → Final Project)
+📘 Study           →  learn a subject (Lectures → repo interview set → Final Project)
 🧠 Problem Solving →  master DSA patterns with real coding problems
-🎤 Interview Prep →  real interview answer banks / role prep (standalone repos)
+🎤 Interview Prep  →  real interview answer banks / role prep (standalone repos)
+🏗️ Projects        →  real products / portfolio apps (shipped work, not Study capstones)
 ```
 
 > ⚠️ **Important:** *Interview questions inside a Study repo* are lecture-mapped practice for that subject.  
-> The **Interview Prep** track below is a **different** thing — dedicated interview repositories, not PHP/OOP lecture checklists.
+> The **Interview Prep** track below is a **different** thing — dedicated interview repositories, not PHP/OOP lecture checklists.  
+> Likewise, **Projects** are real portfolio apps — **not** the `03-Final-Project/` folder inside a Study repo.
 
 Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
@@ -25,6 +27,7 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 | **📘 Study** | Ordered subject series. You write every line. Official docs. | [Learning Series](#-track-1--study-learning-series) |
 | **🧠 Problem Solving** | Pattern-focused problem sets (LeetCode / DSA). | [Problem Solving](#-track-2--problem-solving) |
 | **🎤 Interview Prep** | Standalone interview answer banks (not the folders inside Study repos). | [Interview Prep](#-track-3--interview-prep) |
+| **🏗️ Projects** | Shipped products / portfolio apps (not Study final projects). | [Projects](#-track-4--projects) |
 
 ---
 
@@ -70,7 +73,7 @@ Each Study repo teaches **one subject** with the same method:
 │
 ├── 📂 01-Lectures/              ← curriculum + one folder per lecture
 ├── 📂 02-Interview-Questions/   ← subject-mapped practice (NOT Track 3)
-├── 📂 03-Final-Project/         ← capstone, built milestone by milestone
+├── 📂 03-Final-Project/         ← Study capstone (NOT Track 4 Projects)
 ├── 📄 README.md                 ← progress dashboard and how to start
 └── 📄 template.md               ← shared Study blueprint
 ```
@@ -105,6 +108,22 @@ Dedicated repositories for **interview preparation** from real interviews (answe
 
 ---
 
+## 🏗️ Track 4 — Projects
+
+Repos for **real products and portfolio apps** — work you would show a hiring manager.
+
+> This track is **separate** from `03-Final-Project/` inside Study repos.  
+> Study capstones teach a subject. **Projects** are shipped (or shippable) applications with a real domain.
+
+| Repository | Focus | Status |
+|:---|:---|:---|
+| ⚡ [energy-conversion](https://github.com/Galhoom22/energy-conversion) | Energy metering & billing API — meters, tariffs, reconciliation (Laravel) | 🟢 Showcase |
+| 🚀 [job-board-platform](https://github.com/Galhoom22/job-board-platform) | Job board monorepo — seekers + companies (Clean Architecture) | 🟢 Showcase |
+
+**Method in this track:** build for a real problem, keep architecture honest, document what a visitor should open first. Showcase projects may live under the org or under [@Galhoom22](https://github.com/Galhoom22) until moved into `galhoom-path`.
+
+---
+
 ## ⭐ Shared principles
 
 | | Principle | Meaning |
@@ -113,6 +132,7 @@ Dedicated repositories for **interview preparation** from real interviews (answe
 | ✍️ | **You do the work** | Reading ≠ mastery — write, run, explain |
 | 🎯 | **Depth over dump** | Few concepts or patterns per session |
 | 🧱 | **Foundations before frameworks** | Study track stays ordered on purpose |
+| 🏗️ | **Projects ≠ Study capstones** | Portfolio apps prove shipping; Study finals prove the subject |
 | 🤝 | **Public and reusable** | Others can follow the same path |
 
 ---
@@ -124,6 +144,7 @@ Dedicated repositories for **interview preparation** from real interviews (answe
 | Learn PHP from zero | Start **[🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** |
 | Practice DSA patterns | Open **[🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set)** |
 | Backend interview answers | Open **[🎤 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions)** |
+| See shipped work | Open **[⚡ energy-conversion](https://github.com/Galhoom22/energy-conversion)** or **[🚀 job-board-platform](https://github.com/Galhoom22/job-board-platform)** |
 
 ---
 
@@ -133,4 +154,4 @@ Built and maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
 💬 Questions or improvements? Open an issue on the relevant repository.
 
-**📘 Study. 🧠 Solve. 🎤 Interview. 🏅 Master.**
+**📘 Study. 🧠 Solve. 🎤 Interview. 🏗️ Build. 🏅 Master.**
