@@ -4,10 +4,10 @@
 
 This organization is one home for **three separate tracks**. They share the same spirit (structure, practice, official sources) — but they are **not the same kind of repo**.
 
-```
+```text
 📘 Study          →  learn a subject (Lectures → repo interview set → Final Project)
 🧠 Problem Solving →  master DSA patterns with real coding problems
-🎤 Interview Prep →  company-style / role interview practice (standalone repos)
+🎤 Interview Prep →  real interview answer banks / role prep (standalone repos)
 ```
 
 > ⚠️ **Important:** *Interview questions inside a Study repo* are lecture-mapped practice for that subject.  
@@ -23,7 +23,7 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 |:---|:---|:---|
 | **📘 Study** | Ordered subject series. You write every line. Official docs. | [Learning Series](#-track-1--study-learning-series) |
 | **🧠 Problem Solving** | Pattern-focused problem sets (LeetCode / DSA). | [Problem Solving](#-track-2--problem-solving) |
-| **🎤 Interview Prep** | Standalone interview practice repos (not the folders inside Study repos). | [Interview Prep](#-track-3--interview-prep) |
+| **🎤 Interview Prep** | Standalone interview answer banks (not the folders inside Study repos). | [Interview Prep](#-track-3--interview-prep) |
 
 ---
 
@@ -31,7 +31,7 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
 Each Study repo teaches **one subject** with the same method:
 
-```
+```text
 📚 Lectures  →  💼 Interview Questions (subject-mapped)  →  🏗️ Final Project
 ```
 
@@ -64,7 +64,7 @@ Each Study repo teaches **one subject** with the same method:
 
 ### What’s inside every Study repo
 
-```
+```text
 📦 subject-repo/
 │
 ├── 📂 01-Lectures/              ← curriculum + one folder per lecture
@@ -93,13 +93,14 @@ These are **not** Study repos (no lecture series / final project structure).
 
 ## 🎤 Track 3 — Interview Prep
 
-Dedicated repositories for **interview preparation** (behavioral, system design, role screens, mock loops, etc.).
+Dedicated repositories for **interview preparation** from real interviews (answer banks, role screens, etc.).
 
-> This track is **separate** from `02-Interview-Questions/` inside Study repos.
+> This track is **separate** from `02-Interview-Questions/` inside Study repos.  
+> Uneven topic counts are intentional: only questions actually asked — not a filled curriculum.
 
 | Repository | Focus | Status |
 |:---|:---|:---|
-| — | Standalone interview prep repos coming soon | ⬜ Planned |
+| 🎤 [technical-interview-questions](https://github.com/galhoom-study-method/technical-interview-questions) | PHP / Laravel backend interview **answer bank** — real questions from interviews sat by [@Galhoom22](https://github.com/Galhoom22). Study-order topics, model answers (PHP 8.5 · Laravel 13). Not a course, not a scraped dump. | 🟢 Active |
 
 ---
 
@@ -121,7 +122,7 @@ Dedicated repositories for **interview preparation** (behavioral, system design,
 |:---|:---|
 | Learn PHP from zero | Start **[🐘 php-fundamentals](https://github.com/galhoom-study-method/php-fundamentals)** |
 | Practice DSA patterns | Open **[🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-study-method/LeetCode-DSA-Pareto-Set)** |
-| Dedicated interview prep | Track 3 — coming soon |
+| Backend interview answers | Open **[🎤 technical-interview-questions](https://github.com/galhoom-study-method/technical-interview-questions)** |
 
 ---
 
