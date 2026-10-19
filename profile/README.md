@@ -1,5 +1,6 @@
 # 🛤️ Galhoom Path
 
+> You are on the **Galhoom Path** organization homepage — the map for every repo below (**Study** · **Problem Solving** · **Interview Prep**).
 ### Structured, hands-on tracks for becoming a stronger software engineer
 
 This organization is one home for **three separate tracks**. They share the same spirit (structure, practice, official sources) — but they are **not the same kind of repo**.
