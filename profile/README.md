@@ -1,19 +1,21 @@
 # 🛤️ Galhoom Path
 
-### Backend tracks — Study · Problem Solving · Interview Prep · Projects
+### Backend tracks — Study · Problem Solving · Interview Prep · Projects · Foundations
 
-Four tracks. Same standards (structure, practice, official sources). Different repo types.
+Five tracks. Same standards (structure, practice, official sources). Different repo types.
 
 ```text
 📘 Study           →  learn a subject (Lectures → repo interview set → Final Project)
 🧠 Problem Solving →  master DSA patterns with real coding problems
 🎤 Interview Prep  →  real interview answer banks / role prep (standalone repos)
 🏗️ Projects        →  production / portfolio applications (not Study capstones)
+🧭 Foundations     →  stack-agnostic shared backend notes (not a language Study series)
 ```
 
 > ⚠️ **Important:** *Interview questions inside a Study repo* are lecture-mapped practice for that subject.  
 > The **Interview Prep** track below is a **different** thing — dedicated interview repositories, not PHP/OOP lecture checklists.  
-> Likewise, **Projects** are real portfolio apps — **not** the `03-Final-Project/` folder inside a Study repo.
+> Likewise, **Projects** are real portfolio apps — **not** the `03-Final-Project/` folder inside a Study repo.  
+> **Foundations** is curated shared backend knowledge — **not** Lectures → Interview → Final Project, and **not** a PHP/Laravel curriculum.
 
 Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
@@ -27,6 +29,7 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 | **🧠 Problem Solving** | Pattern-focused problem sets (LeetCode / DSA). | [Problem Solving](#-track-2--problem-solving) |
 | **🎤 Interview Prep** | Standalone interview answer banks (not the folders inside Study repos). | [Interview Prep](#-track-3--interview-prep) |
 | **🏗️ Projects** | Production and portfolio applications (not Study final projects). | [Projects](#-track-4--projects) |
+| **🧭 Foundations** | Stack-agnostic backend engineering notes that transfer across languages. | [Foundations](#-track-5--foundations) |
 
 ---
 
@@ -123,6 +126,22 @@ Production and portfolio applications — work you show in a hiring conversation
 
 ---
 
+## 🧭 Track 5 — Foundations
+
+**Stack-agnostic** shared backend engineering — HTTP, data platforms, networking, system design, Docker/K8s literacy, DevOps/DevSecOps, API design/security, and interview practice maps.
+
+> This track is **not** a Study series (no Lectures → Final Project).  
+> It is **not** language/framework curriculum (PHP, Laravel, Node, Django, … stay in Study or separate stack repos).  
+> Use it **alongside** any Study path: ideas that still matter when you switch languages.
+
+| Repository | Focus | Status |
+|:---|:---|:---|
+| 🧭 [backend-engineering](https://github.com/galhoom-path/backend-engineering) | Ordered notes: core backend → data (SQL/Postgres/Redis/Mongo) → OS/networking/CS → API craft → system design → Linux/Docker/K8s/DevOps → professional practice | 🟢 Active |
+
+**Method in this track:** read in folder order; treat notes as transferable concepts; deepen a language stack in Study repos separately.
+
+---
+
 ## ⭐ Shared principles
 
 | | Principle | Meaning |
@@ -131,6 +150,7 @@ Production and portfolio applications — work you show in a hiring conversation
 | ✍️ | **You do the work** | Reading ≠ mastery — write, run, explain |
 | 🎯 | **Depth over dump** | Few concepts or patterns per session |
 | 🧱 | **Foundations before frameworks** | Study track stays ordered on purpose |
+| 🧭 | **Shared ≠ stack** | Foundations stay language-agnostic; Study owns one subject deep |
 | 🏗️ | **Projects ≠ Study capstones** | Portfolio apps prove shipping; Study finals prove the subject |
 | 🤝 | **Public and reusable** | Others can follow the same path |
 
@@ -141,6 +161,7 @@ Production and portfolio applications — work you show in a hiring conversation
 | Goal | Do this |
 |:---|:---|
 | Learn PHP from zero | Start **[🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** |
+| Shared backend concepts (any stack) | Open **[🧭 backend-engineering](https://github.com/galhoom-path/backend-engineering)** |
 | Practice DSA patterns (C++) | Open **[🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set)** |
 | Practice DSA in PHP | Open **[⚔️ php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling)** |
 | Backend interview answers | Open **[🎤 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions)** |
@@ -154,4 +175,4 @@ Built and maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
 💬 Questions or improvements? Open an issue on the relevant repository.
 
-**📘 Study. 🧠 Solve. 🎤 Interview. 🏗️ Build. 🏅 Master.**
+**📘 Study. 🧠 Solve. 🎤 Interview. 🏗️ Build. 🧭 Foundations. 🏅 Master.**
