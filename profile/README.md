@@ -118,7 +118,6 @@ Repos for **real products and portfolio apps** — work you would show a hiring 
 | Repository | Focus | Status |
 |:---|:---|:---|
 | ⚡ [energy-conversion](https://github.com/galhoom-path/energy-conversion) | Energy metering & billing API — meters, tariffs, reconciliation (Laravel) | 🟢 Active |
-| 🚀 [job-board-platform](https://github.com/Galhoom22/job-board-platform) | Job board monorepo — seekers + companies (Clean Architecture) | 🟢 Active |
 
 **Method in this track:** build for a real problem, keep architecture honest, document what a visitor should open first. Showcase projects may live under the org or under [@Galhoom22](https://github.com/Galhoom22) until moved into `galhoom-path`.
 
@@ -144,7 +143,7 @@ Repos for **real products and portfolio apps** — work you would show a hiring 
 | Learn PHP from zero | Start **[🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** |
 | Practice DSA patterns | Open **[🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set)** |
 | Backend interview answers | Open **[🎤 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions)** |
-| See shipped work | Open **[⚡ energy-conversion](https://github.com/galhoom-path/energy-conversion)** or **[🚀 job-board-platform](https://github.com/Galhoom22/job-board-platform)** |
+| See shipped work | Open **[⚡ energy-conversion](https://github.com/galhoom-path/energy-conversion)** |
 
 ---
 
