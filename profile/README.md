@@ -55,8 +55,8 @@ Each Study repo teaches **one subject** with the same method:
 
 | Order | Repository | What you learn | Status |
 |:---:|:---|:---|:---|
-| **1** | 🐘 [php-fundamentals](https://github.com/galhoom-study-method/php-fundamentals) | Core PHP 8.5+ — variables, types, functions, arrays, web basics. **No OOP.** | 🟢 Active |
-| **2** | 🧩 [php-oop](https://github.com/galhoom-study-method/php-oop) | Object-oriented PHP — classes, interfaces, traits, enums, exceptions, namespaces, PHPUnit | 🟢 Active |
+| **1** | 🐘 [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | Core PHP 8.5+ — variables, types, functions, arrays, web basics. **No OOP.** | 🟢 Active |
+| **2** | 🧩 [php-oop](https://github.com/galhoom-path/php-oop) | Object-oriented PHP — classes, interfaces, traits, enums, exceptions, namespaces, PHPUnit | 🟢 Active |
 | **3** | 🎯 `php-ood` | Object-oriented design — principles and patterns on top of OOP | ⬜ Planned |
 | **4+** | 🛠️ Laravel, Filament, tooling, backend stack… | Same method, next subjects in the path | ⬜ Planned |
 
@@ -74,7 +74,7 @@ Each Study repo teaches **one subject** with the same method:
 └── 📄 template.md               ← shared Study blueprint
 ```
 
-Global Study blueprint: **[study-template](https://github.com/galhoom-study-method/study-template)** → [`template.md`](https://github.com/galhoom-study-method/study-template/blob/main/template.md)
+Global Study blueprint: **[study-template](https://github.com/galhoom-path/study-template)** → [`template.md`](https://github.com/galhoom-path/study-template/blob/main/template.md)
 
 ---
 
@@ -85,7 +85,7 @@ These are **not** Study repos (no lecture series / final project structure).
 
 | Repository | Focus | Status |
 |:---|:---|:---|
-| 🧮 [LeetCode-DSA-Pareto-Set](https://github.com/galhoom-study-method/LeetCode-DSA-Pareto-Set) | 49 essential LeetCode problems covering core DSA interview patterns. Each problem: Brute Force → Optimized → Optimal (C++) + flowchart | 🟢 Active |
+| 🧮 [LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) | 49 essential LeetCode problems covering core DSA interview patterns. Each problem: Brute Force → Optimized → Optimal (C++) + flowchart | 🟢 Active |
 
 **Method in this track:** deepen patterns by solving the highest-leverage problems thoroughly — not racing through volume.
 
@@ -100,7 +100,7 @@ Dedicated repositories for **interview preparation** from real interviews (answe
 
 | Repository | Focus | Status |
 |:---|:---|:---|
-| 🎤 [technical-interview-questions](https://github.com/galhoom-study-method/technical-interview-questions) | PHP / Laravel backend interview **answer bank** — real questions from interviews sat by [@Galhoom22](https://github.com/Galhoom22). Study-order topics, model answers (PHP 8.5 · Laravel 13). Not a course, not a scraped dump. | 🟢 Active |
+| 🎤 [technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions) | PHP / Laravel backend interview **answer bank** — real questions from interviews sat by [@Galhoom22](https://github.com/Galhoom22). Study-order topics, model answers (PHP 8.5 · Laravel 13). Not a course, not a scraped dump. | 🟢 Active |
 
 ---
 
@@ -120,9 +120,9 @@ Dedicated repositories for **interview preparation** from real interviews (answe
 
 | Goal | Do this |
 |:---|:---|
-| Learn PHP from zero | Start **[🐘 php-fundamentals](https://github.com/galhoom-study-method/php-fundamentals)** |
-| Practice DSA patterns | Open **[🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-study-method/LeetCode-DSA-Pareto-Set)** |
-| Backend interview answers | Open **[🎤 technical-interview-questions](https://github.com/galhoom-study-method/technical-interview-questions)** |
+| Learn PHP from zero | Start **[🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** |
+| Practice DSA patterns | Open **[🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set)** |
+| Backend interview answers | Open **[🎤 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions)** |
 
 ---
 
