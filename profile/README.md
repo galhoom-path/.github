@@ -89,8 +89,9 @@ Algorithms, data structures, and coding-interview patterns. **Not** Study repos.
 | Repository | Focus | Status |
 |:---|:---|:---|
 | 🧮 [LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) | 49 essential LeetCode problems covering core DSA interview patterns. Each problem: Brute Force → Optimized → Optimal (C++) + flowchart | 🟢 Active |
+| ⚔️ [php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) | PHP 8.5 DSA gym — 238 Gate stubs (E→S), Hunter Solves First. Learn + Solve, not a solutions dump | 🟢 Active |
 
-**Method in this track:** deepen patterns by solving the highest-leverage problems thoroughly — not racing through volume.
+**Method in this track:** deepen patterns (Pareto depth in C++) and build fluency (PHP Gate climb) — not racing through unread solutions.
 
 ---
 
@@ -140,7 +141,8 @@ Production and portfolio applications — work you show in a hiring conversation
 | Goal | Do this |
 |:---|:---|
 | Learn PHP from zero | Start **[🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** |
-| Practice DSA patterns | Open **[🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set)** |
+| Practice DSA patterns (C++) | Open **[🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set)** |
+| Practice DSA in PHP | Open **[⚔️ php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling)** |
 | Backend interview answers | Open **[🎤 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions)** |
 | See shipped work | Open **[⚡ energy-conversion](https://github.com/galhoom-path/energy-conversion)** |
 
