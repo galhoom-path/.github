@@ -60,8 +60,9 @@ Each Study repo teaches **one subject** with the same method:
 |:---:|:---|:---|:---|
 | **1** | 🐘 [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | Core PHP 8.5+ — variables, types, functions, arrays, web basics. **No OOP.** | 🟢 Active |
 | **2** | 🧩 [php-oop](https://github.com/galhoom-path/php-oop) | Object-oriented PHP — classes, interfaces, traits, enums, exceptions, namespaces, PHPUnit | 🟢 Active |
-| **3** | 🎯 `php-ood` | Object-oriented design — principles and patterns on top of OOP | ⬜ Planned |
-| **4+** | 🛠️ Laravel, Filament, tooling, backend stack… | Same method, next subjects in the path | ⬜ Planned |
+| **3** | 🎯 `php-ood` | Object-oriented design — SOLID, GRASP, and design principles on top of OOP | ⬜ Planned |
+| **4** | 🧩 `php-design-patterns` | Design patterns — creational, structural, and behavioral (after OOD) | ⬜ Planned |
+| **5+** | 🛠️ Laravel, Filament, tooling, backend stack… | Same method, next subjects in the path | ⬜ Planned |
 
 > 🧭 **Series rule:** a topic taught in one Study repo is **never** re-taught in another.
 
