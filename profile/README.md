@@ -5,7 +5,7 @@
 Same standards (structure, practice, official sources). **One pipeline** — each track unlocks the next.
 
 ```text
-1. 📘 Study            →  learn a subject deeply (you write every line)
+1. 📘 Study            →  deep subject curricula (you write every line · deliberate practice)
 2. 🧭 Foundations      →  stack-agnostic backend concepts (HTTP, data, design, ops)
 3. 🧠 Problem Solving  →  DSA patterns with real coding problems
 4. 🎤 Interview Prep   →  real interview answer banks / role prep
@@ -41,7 +41,8 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 | Progress bar | Maintainer completion toward **100%** · 20 blocks · `█` done · `░` left | `[████░░░░░░░░░░░░░░░░] 20%` |
 | **Complete?** | `⬜` = not finished · `✅` = maintainer marked **100%** for the current curriculum | See below |
 
-> **Right now:** finish **1.1** first. Every other ID stays queued until then.
+> **Maintainer priority:** concentrate on **1.1** first (path order). Other IDs stay queued until then.  
+> **“Current focus” ≠ beginner.** It only means **which repo is getting attention now** — not skill level.
 
 ---
 
@@ -78,30 +79,35 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
 ## 1 · Current focus
 
+> **Meaning of “Current focus”:** the repo the maintainer is **concentrating on** (active priority).  
+> It is **not** “I’m new to PHP,” **not** a seniority label, and **not** “starting from zero.”  
+> Visitors: treat this as **where work is focused now**; full craft context stays in the path below.
+
 <div align="center">
 
 ### **1.1** · 🐘 [php-fundamentals](https://github.com/galhoom-path/php-fundamentals)
 
-**Track 1 · Study · Learning Series #1**  
-Core PHP 8.5+ (no OOP) — Lectures → Interview Questions → Visual Maps → Final Project
+**Track 1 · Study · Series #1 · maintainer priority**  
+Living PHP 8.5+ craft curriculum (no OOP in this repo) — Lectures → Interview Questions → Visual Maps → Final Project
 
 | # | Item | Detail |
 |:---:|:---|:---|
-| **1** | **ID** | **1.1** — first repo in Track 1 · first step in the whole path |
-| **2** | **Progress** | **0 / 30** lectures |
-| **3** | **Bar** | `[░░░░░░░░░░░░░░░░░░░░] **0%**` |
-| **4** | **Next lecture** | Lecture 01 — *Why Static Pages Are Not Enough* |
-| **5** | **After 1.1** | Continue Study **1.2 → …**, then Track **2** Foundations |
-| **6** | **Complete?** | ⬜ **Not finished** — `✅` only when this repo hits **100%** (still gets living updates afterward) |
+| **1** | **ID** | **1.1** — first repo in Track 1 · first ID in the path order |
+| **2** | **Why “current”** | **Priority / concentration** on this repo — not a beginner badge |
+| **3** | **Progress** | **0 / 30** lectures (maintainer completion toward 100%) |
+| **4** | **Bar** | `[░░░░░░░░░░░░░░░░░░░░] **0%**` |
+| **5** | **Next unit** | Lecture 01 — *Why Static Pages Are Not Enough* |
+| **6** | **After 1.1** | Continue Study **1.2 → …**, then Track **2** Foundations |
+| **7** | **Complete?** | ⬜ **Not finished** — `✅` only when this repo hits **100%** (still gets living updates afterward) |
 
 [![Open php-fundamentals](https://img.shields.io/badge/Open-1.1%20php--fundamentals-2563EB?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals)
 [![Lectures](https://img.shields.io/badge/Lectures-0%2F30-lightgrey?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals#-my-progress)
 [![Maps](https://img.shields.io/badge/Visual%20Maps-0%2F12-lightgrey?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals#-track-3--visual-maps)
-[![Status](https://img.shields.io/badge/Status-Current%20focus-F59E0B?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals)
+[![Status](https://img.shields.io/badge/Status-Priority%20focus-F59E0B?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals)
 
 </div>
 
-> 📌 **Path rule:** finish **[1.1 php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** before moving on. Do not jump to Foundations / DSA / interviews / projects yet.
+> 📌 **Path rule:** keep concentrating on **[1.1 php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** until it hits the path gate; then advance. Do not jump the journey order to Foundations / DSA / interviews / projects yet.
 
 ---
 
@@ -112,7 +118,7 @@ All active repos · IDs = **Track.Repo** · journey order top → bottom.
 
 | ID | Track | Repository | Progress | Progress bar | Complete? | Status |
 |:---:|:---|:---|:---:|:---|:---:|:---|
-| **1.1** | 1️⃣ 📘 Study | [🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | **0 / 30** lectures | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | 🎯 **Current focus** |
+| **1.1** | 1️⃣ 📘 Study | [🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | **0 / 30** lectures | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | 🎯 **Current focus** *(priority)* |
 | **1.2** | 1️⃣ 📘 Study | [🧩 php-oop](https://github.com/galhoom-path/php-oop) | **12 / 31** lectures | `[████████░░░░░░░░░░░░] **39%**` | ⬜ | ⏸️ After **1.1** |
 | **2.1** | 2️⃣ 🧭 Foundations | [🧭 backend-engineering](https://github.com/galhoom-path/backend-engineering) | Notes scaffolded · **not 100%** | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | ⏸️ After Track **1** progress |
 | **3.1** | 3️⃣ 🧠 Problem Solving | [⚔️ php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) | **0 / 238** gates | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | ⏸️ After Track **2** |
@@ -127,7 +133,7 @@ All active repos · IDs = **Track.Repo** · journey order top → bottom.
 
 | # | Signal | Meaning |
 |:---:|:---|:---|
-| **1** | 🎯 **Current focus** | Only active repo right now (**1.1**) |
+| **1** | 🎯 **Current focus** | Maintainer **priority** — concentrating work on this repo (**1.1**). **Not** a beginner / skill-level label |
 | **2** | ⏸️ **After …** | Queued until the previous step in the journey |
 | **3** | Progress / bar | Maintainer progress toward **100%** (not “files exist”) |
 | **4** | ⬜ **Complete?** | **Not finished** — do not treat as done |
@@ -145,7 +151,7 @@ Follow top → bottom. Each track **builds on** the one above it.
 
 | # | Track | Why this order | Repos | Jump |
 |:---:|:---|:---|:---|:---|
-| **1** | **📘 Study** | First: learn to write real code in one subject | **1.1 → 1.2 → 1.3…** | [§4](#4--track-1--study-learning-series) |
+| **1** | **📘 Study** | First path step: deep, versioned subject curricula (deliberate practice — not a “newbie” track label) | **1.1 → 1.2 → 1.3…** | [§4](#4--track-1--study-learning-series) |
 | **2** | **🧭 Foundations** | Next: shared backend concepts that transfer across stacks | **2.1** | [§5](#5--track-2--foundations) |
 | **3** | **🧠 Problem Solving** | Then: train patterns & fluency (PHP gates → Pareto DSA) | **3.1 → 3.2** | [§6](#6--track-3--problem-solving) |
 | **4** | **🎤 Interview Prep** | Then: practice answering real interview questions | **4.1** | [§7](#7--track-4--interview-prep) |
@@ -155,10 +161,10 @@ Follow top → bottom. Each track **builds on** the one above it.
 
 ## 4 · Track 1 — Study (Learning Series)
 
-**Position in journey:** Step **1 / 5** — start here.  
+**Position in journey:** Step **1 / 5** — first path track (craft depth, not a “beginner only” lane).  
 **Unlocks:** Track **2** Foundations (and everything after).
 
-**Order rule:** finish **1.1**, then **1.2**, then **1.3**… Never skip ahead in the series.
+**Order rule:** complete priority on **1.1**, then **1.2**, then **1.3**… Never skip ahead in the series.
 
 Each Study repo teaches **one subject** with the same method:
 
@@ -193,14 +199,14 @@ Inside every Study repo (strict order):
 
 | ID | Repository | What you learn | Progress | Progress bar | Complete? | Status |
 |:---:|:---|:---|:---:|:---|:---:|:---|
-| **1.1** | 🐘 [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | Core PHP 8.5+ — variables, types, functions, arrays, web basics. **No OOP.** | **0 / 30** lectures | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | 🎯 **Current focus** |
+| **1.1** | 🐘 [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | Core PHP 8.5+ craft — variables, types, functions, arrays, web basics. **No OOP** in this repo. | **0 / 30** lectures | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | 🎯 **Current focus** *(priority)* |
 | **1.2** | 🧩 [php-oop](https://github.com/galhoom-path/php-oop) | Object-oriented PHP — classes, interfaces, traits, enums, exceptions, namespaces, PHPUnit | **12 / 31** lectures | `[████████░░░░░░░░░░░░] **39%**` | ⬜ | ⏸️ After **1.1** |
 | **1.3** | 🎯 `php-ood` | Object-oriented design — SOLID, GRASP, and design principles on top of OOP | — | `[░░░░░░░░░░░░░░░░░░░░] **—**` | ⬜ | ⬜ Planned |
 | **1.4** | 🎨 `php-design-patterns` | Design patterns — creational, structural, and behavioral (after OOD) | — | `[░░░░░░░░░░░░░░░░░░░░] **—**` | ⬜ | ⬜ Planned |
 | **1.5+** | 🛠️ Laravel, Filament, tooling, backend stack… | Same method, next subjects in the path | — | `[░░░░░░░░░░░░░░░░░░░░] **—**` | ⬜ | ⬜ Planned |
 
 > 🧭 **Series rule:** a topic taught in one Study repo is **never** re-taught in another.  
-> 🎯 **Right now:** complete **1.1** before **1.2**.
+> 🎯 **Maintainer priority:** finish concentrating on **1.1** before advancing to **1.2** (path order — not “I’m new”).
 
 ### What’s inside every Study repo
 
@@ -327,7 +333,7 @@ Every Track **5** repo will include the **requirements** needed to rebuild it yo
 | **6** | 🧭 **Shared ≠ stack** | Foundations stay language-agnostic; Study owns one subject deep |
 | **7** | 🏗️ **Projects = practice** | Track 5 is learn-by-doing public builds — not market products (those stay private) |
 | **8** | 🤝 **Public and reusable** | Others can follow the same path |
-| **9** | 🎯 **One focus at a time** | Finish **1.1** before spreading across later tracks |
+| **9** | 🎯 **One focus at a time** | Keep **priority** on **1.1** before spreading across later tracks (concentration, not skill level) |
 | **10** | ✅ **Complete only at 100%** | `✅` appears only when the maintainer marks a repo finished for the current curriculum |
 | **11** | 🔄 **Living updates** | After `✅`, version bumps (e.g. PHP **8.5 → 8.6**) still land in the **same** repo |
 
@@ -337,7 +343,7 @@ Every Track **5** repo will include the **requirements** needed to rebuild it yo
 
 | # | Goal | Do this |
 |:---:|:---|:---|
-| **1** | **Start the journey** | Open **[1.1 🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** ← **current focus** |
+| **1** | **Start the journey** | Open **[1.1 🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** ← **current focus** *(maintainer priority)* |
 | **2** | See the full order + bars | Jump to **[§2 Path progress](#2--path-progress)** |
 | **3** | Understand track order | Read **[§3 Pick a track](#3--pick-a-track)** (1→5) |
 | **4** | Later: Foundations | **[2.1 backend-engineering](https://github.com/galhoom-path/backend-engineering)** *(after Track 1)* |
@@ -354,4 +360,4 @@ Built and maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
 💬 Questions or improvements? Open an issue on the relevant repository.
 
-**Journey: 1 Study → 2 Foundations → 3 Solve → 4 Interview → 5 Practice builds · Inside Study: Learn → Explain → Map → Build · Start at 1.1 · 🏅 Master.**
+**Journey: 1 Study → 2 Foundations → 3 Solve → 4 Interview → 5 Practice builds · Inside Study: Learn → Explain → Map → Build · Priority focus: 1.1 · 🏅 Master.**

@@ -3,6 +3,7 @@
   "version": 1,
   "organization": "galhoom-path",
   "current_focus_id": "1.1",
+  "current_focus_means": "Maintainer priority / concentration on this repo ID. Not skill level, seniority, or beginner status.",
   "journey_rule": "Tracks are a single pipeline. Do not reorder tracks. Do not insert a new track between existing ones without an explicit human decision to revise this registry first.",
   "completion_policy": {
     "complete_means": "Maintainer explicitly marked the repo at 100% of its current curriculum / milestones (shown as Complete? = checkmark on the org profile).",
@@ -17,7 +18,7 @@
       "key": "study",
       "name": "Study",
       "emoji": "📘",
-      "role": "Learn to write code in one subject (Lectures → subject interviews → Visual Maps → Final Project).",
+      "role": "Deep subject curricula and deliberate practice (Lectures → subject interviews → Visual Maps → Final Project). Not a beginner-only track label.",
       "unlocks": 2,
       "repo_order_rule": "Strict series order. Never skip ahead (1.1 before 1.2 before 1.3…)."
     },

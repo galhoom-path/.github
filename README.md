@@ -24,7 +24,7 @@ Lectures → Interview Questions → Visual Maps → Final Project
 Learn       Explain               Map            Build
 ```
 
-Blueprint: [study-template](https://github.com/galhoom-path/study-template) · Current focus: **1.1** [php-fundamentals](https://github.com/galhoom-path/php-fundamentals)
+Blueprint: [study-template](https://github.com/galhoom-path/study-template) · Current focus *(maintainer priority, not skill level)*: **1.1** [php-fundamentals](https://github.com/galhoom-path/php-fundamentals)
 
 ## Validate locally
 
