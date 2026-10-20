@@ -42,7 +42,7 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 | **Complete?** | `⬜` = not finished · `✅` = maintainer marked **100%** for the current curriculum | See below |
 
 > **Maintainer priority:** concentrate on **1.1** first (path order). Other IDs stay queued until then.  
-> **“Current focus” ≠ beginner.** It only means **which repo is getting attention now** — not skill level.
+> **“Current focus”** means **which repo is getting attention now** (maintainer priority) — not skill level.
 
 ---
 
@@ -66,7 +66,7 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 | **1** | [Current focus](#1--current-focus) |
 | **2** | [Path progress](#2--path-progress) |
 | **3** | [Pick a track](#3--pick-a-track) |
-| **4** | [Track 1 — Study](#4--track-1--study-learning-series) |
+| **4** | [Track 1 — Study](#4--track-1--study) |
 | **5** | [Track 2 — Foundations](#5--track-2--foundations) |
 | **6** | [Track 3 — Problem Solving](#6--track-3--problem-solving) |
 | **7** | [Track 4 — Interview Prep](#7--track-4--interview-prep) |
@@ -79,9 +79,8 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
 ## 1 · Current focus
 
-> **Meaning of “Current focus”:** the repo the maintainer is **concentrating on** (active priority).  
-> It is **not** “I’m new to PHP,” **not** a seniority label, and **not** “starting from zero.”  
-> Visitors: treat this as **where work is focused now**; full craft context stays in the path below.
+> **Meaning of “Current focus”:** the repo the maintainer is **concentrating on** (active priority / attention).  
+> Visitors: treat this as **where work is focused now** — path order and craft depth, not a skill-level label.
 
 <div align="center">
 
@@ -93,7 +92,7 @@ Living PHP 8.5+ craft curriculum (no OOP in this repo) — Lectures → Intervie
 | # | Item | Detail |
 |:---:|:---|:---|
 | **1** | **ID** | **1.1** — first repo in Track 1 · first ID in the path order |
-| **2** | **Why “current”** | **Priority / concentration** on this repo — not a beginner badge |
+| **2** | **Why “current”** | **Priority / concentration** on this repo (maintainer attention) |
 | **3** | **Progress** | **0 / 30** lectures (maintainer completion toward 100%) |
 | **4** | **Bar** | `[░░░░░░░░░░░░░░░░░░░░] **0%**` |
 | **5** | **Next unit** | Lecture 01 — *Why Static Pages Are Not Enough* |
@@ -133,7 +132,7 @@ All active repos · IDs = **Track.Repo** · journey order top → bottom.
 
 | # | Signal | Meaning |
 |:---:|:---|:---|
-| **1** | 🎯 **Current focus** | Maintainer **priority** — concentrating work on this repo (**1.1**). **Not** a beginner / skill-level label |
+| **1** | 🎯 **Current focus** | Maintainer **priority** — concentrating work on this repo (**1.1**) |
 | **2** | ⏸️ **After …** | Queued until the previous step in the journey |
 | **3** | Progress / bar | Maintainer progress toward **100%** (not “files exist”) |
 | **4** | ⬜ **Complete?** | **Not finished** — do not treat as done |
@@ -151,7 +150,7 @@ Follow top → bottom. Each track **builds on** the one above it.
 
 | # | Track | Why this order | Repos | Jump |
 |:---:|:---|:---|:---|:---|
-| **1** | **📘 Study** | First path step: deep, versioned subject curricula (deliberate practice — not a “newbie” track label) | **1.1 → 1.2 → 1.3…** | [§4](#4--track-1--study-learning-series) |
+| **1** | **📘 Study** | First path step: deep, versioned subject curricula (deliberate practice) | **1.1 → 1.2 → 1.3…** | [§4](#4--track-1--study) |
 | **2** | **🧭 Foundations** | Next: shared backend concepts that transfer across stacks | **2.1** | [§5](#5--track-2--foundations) |
 | **3** | **🧠 Problem Solving** | Then: train patterns & fluency (PHP gates → Pareto DSA) | **3.1 → 3.2** | [§6](#6--track-3--problem-solving) |
 | **4** | **🎤 Interview Prep** | Then: practice answering real interview questions | **4.1** | [§7](#7--track-4--interview-prep) |
@@ -159,9 +158,9 @@ Follow top → bottom. Each track **builds on** the one above it.
 
 ---
 
-## 4 · Track 1 — Study (Learning Series)
+## 4 · Track 1 — Study
 
-**Position in journey:** Step **1 / 5** — first path track (craft depth, not a “beginner only” lane).  
+**Position in journey:** Step **1 / 5** — first path track (deep craft curricula).  
 **Unlocks:** Track **2** Foundations (and everything after).
 
 **Order rule:** complete priority on **1.1**, then **1.2**, then **1.3**… Never skip ahead in the series.
@@ -206,7 +205,7 @@ Inside every Study repo (strict order):
 | **1.5+** | 🛠️ Laravel, Filament, tooling, backend stack… | Same method, next subjects in the path | — | `[░░░░░░░░░░░░░░░░░░░░] **—**` | ⬜ | ⬜ Planned |
 
 > 🧭 **Series rule:** a topic taught in one Study repo is **never** re-taught in another.  
-> 🎯 **Maintainer priority:** finish concentrating on **1.1** before advancing to **1.2** (path order — not “I’m new”).
+> 🎯 **Maintainer priority:** finish concentrating on **1.1** before advancing to **1.2** (path order).
 
 ### What’s inside every Study repo
 
@@ -333,7 +332,7 @@ Every Track **5** repo will include the **requirements** needed to rebuild it yo
 | **6** | 🧭 **Shared ≠ stack** | Foundations stay language-agnostic; Study owns one subject deep |
 | **7** | 🏗️ **Projects = practice** | Track 5 is learn-by-doing public builds — not market products (those stay private) |
 | **8** | 🤝 **Public and reusable** | Others can follow the same path |
-| **9** | 🎯 **One focus at a time** | Keep **priority** on **1.1** before spreading across later tracks (concentration, not skill level) |
+| **9** | 🎯 **One focus at a time** | Keep **priority** on **1.1** before spreading across later tracks |
 | **10** | ✅ **Complete only at 100%** | `✅` appears only when the maintainer marks a repo finished for the current curriculum |
 | **11** | 🔄 **Living updates** | After `✅`, version bumps (e.g. PHP **8.5 → 8.6**) still land in the **same** repo |
 
