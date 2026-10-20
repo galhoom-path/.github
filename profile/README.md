@@ -21,6 +21,64 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
 ---
 
+## 🎯 Current focus
+
+<div align="center">
+
+### 🐘 [php-fundamentals](https://github.com/galhoom-path/php-fundamentals)
+
+**Track 1 · Study · Learning Series #1**  
+Core PHP 8.5+ (no OOP) — Lectures → Interview Questions → Final Project
+
+| | |
+|:---:|:---|
+| **Progress** | **0 / 30** lectures · **0%** |
+| **Bar** | `[░░░░░░░░░░░░░░░░░░░░] 0%` |
+| **Next** | Lecture 01 — *Why Static Pages Are Not Enough* |
+| **Then** | Everything else resumes **after** this repo is complete |
+
+[![Open php-fundamentals](https://img.shields.io/badge/Open-php--fundamentals-2563EB?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals)
+[![Lectures](https://img.shields.io/badge/Lectures-0%2F30-lightgrey?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals#-my-progress)
+[![Status](https://img.shields.io/badge/Status-Current%20focus-F59E0B?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals)
+
+</div>
+
+> 📌 **Path rule right now:** finish **[php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** first. Other repos stay **queued** (some already have partial progress from earlier work).
+
+---
+
+## 📊 Path progress
+
+Snapshot of completion across active repos. Bars use 20 blocks (`█` filled · `░` remaining).
+
+| Track | Repository | Done | Progress | Status |
+|:---|:---|:---:|:---|:---|
+| 📘 Study | [🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | **0 / 30** lectures | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | 🎯 **Current focus** |
+| 📘 Study | [🧩 php-oop](https://github.com/galhoom-path/php-oop) | **12 / 31** lectures | `[████████░░░░░░░░░░░░] **39%**` | ⏸️ After fundamentals |
+| 🧠 Problem Solving | [🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) | **1 / 49** problems | `[█░░░░░░░░░░░░░░░░░░░] **2%**` | ⏸️ After fundamentals |
+| 🧠 Problem Solving | [⚔️ php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) | **0 / 238** gates | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⏸️ After fundamentals |
+| 🎤 Interview Prep | [🎤 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions) | **46** answers published | Bank ready · personal drill TBD | ⏸️ After fundamentals |
+| 🏗️ Projects | [⚡ energy-conversion](https://github.com/galhoom-path/energy-conversion) | **~1 / 5** epics started | `[████░░░░░░░░░░░░░░░░] **~20%**` | ⏸️ After fundamentals |
+| 🧭 Foundations | [🧭 backend-engineering](https://github.com/galhoom-path/backend-engineering) | **234** notes published | Curriculum ready · study checkoff TBD | ⏸️ After fundamentals |
+
+<details>
+<summary><strong>How to read this table</strong></summary>
+
+<br/>
+
+| Signal | Meaning |
+|:---|:---|
+| 🎯 **Current focus** | The only repo actively worked on right now |
+| ⏸️ **After fundamentals** | Queued until [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) is finished |
+| **Lecture / problem / gate counts** | Taken from each repo’s own progress tracker or checklist |
+| **Bank / notes published** | Content is curated; personal “studied ✔” tracking lives in that repo when added |
+
+> Numbers are maintained manually on this org profile when progress changes in the source repos.
+
+</details>
+
+---
+
 ## 🗺️ Pick a track
 
 | Track | What it is | Start here |
@@ -59,15 +117,16 @@ Each Study repo teaches **one subject** with the same method:
 
 ### Learning Series
 
-| Order | Repository | What you learn | Status |
-|:---:|:---|:---|:---|
-| **1** | 🐘 [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | Core PHP 8.5+ — variables, types, functions, arrays, web basics. **No OOP.** | 🟢 Active |
-| **2** | 🧩 [php-oop](https://github.com/galhoom-path/php-oop) | Object-oriented PHP — classes, interfaces, traits, enums, exceptions, namespaces, PHPUnit | 🟢 Active |
-| **3** | 🎯 `php-ood` | Object-oriented design — SOLID, GRASP, and design principles on top of OOP | ⬜ Planned |
-| **4** | 🎨 `php-design-patterns` | Design patterns — creational, structural, and behavioral (after OOD) | ⬜ Planned |
-| **5+** | 🛠️ Laravel, Filament, tooling, backend stack… | Same method, next subjects in the path | ⬜ Planned |
+| Order | Repository | What you learn | Progress | Status |
+|:---:|:---|:---|:---:|:---|
+| **1** | 🐘 [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | Core PHP 8.5+ — variables, types, functions, arrays, web basics. **No OOP.** | **0 / 30** · 0% | 🎯 **Current focus** |
+| **2** | 🧩 [php-oop](https://github.com/galhoom-path/php-oop) | Object-oriented PHP — classes, interfaces, traits, enums, exceptions, namespaces, PHPUnit | **12 / 31** · 39% | ⏸️ After fundamentals |
+| **3** | 🎯 `php-ood` | Object-oriented design — SOLID, GRASP, and design principles on top of OOP | — | ⬜ Planned |
+| **4** | 🎨 `php-design-patterns` | Design patterns — creational, structural, and behavioral (after OOD) | — | ⬜ Planned |
+| **5+** | 🛠️ Laravel, Filament, tooling, backend stack… | Same method, next subjects in the path | — | ⬜ Planned |
 
-> 🧭 **Series rule:** a topic taught in one Study repo is **never** re-taught in another.
+> 🧭 **Series rule:** a topic taught in one Study repo is **never** re-taught in another.  
+> 🎯 **Right now:** complete **#1 php-fundamentals** before continuing the series.
 
 ### What’s inside every Study repo
 
@@ -89,10 +148,10 @@ Global Study blueprint: **[study-template](https://github.com/galhoom-path/study
 
 Algorithms, data structures, and coding-interview patterns. **Not** Study repos.
 
-| Repository | Focus | Status |
-|:---|:---|:---|
-| 🧮 [LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) | 49 essential LeetCode problems covering core DSA interview patterns. Each problem: Brute Force → Optimized → Optimal (C++) + flowchart | 🟢 Active |
-| ⚔️ [php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) | PHP 8.5 DSA gym — 238 Gate stubs (E→S), Hunter Solves First. Learn + Solve, not a solutions dump | 🟢 Active |
+| Repository | Focus | Progress | Status |
+|:---|:---|:---:|:---|
+| 🧮 [LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) | 49 essential LeetCode problems covering core DSA interview patterns. Each problem: Brute Force → Optimized → Optimal (C++) + flowchart | **1 / 49** · 2% | ⏸️ After fundamentals |
+| ⚔️ [php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) | PHP 8.5 DSA gym — 238 Gate stubs (E→S), Hunter Solves First. Learn + Solve, not a solutions dump | **0 / 238** · 0% | ⏸️ After fundamentals |
 
 **Method in this track:** deepen patterns (Pareto depth in C++) and build fluency (PHP Gate climb) — not racing through unread solutions.
 
@@ -105,9 +164,9 @@ Standalone **interview answer banks** from real interviews — not lecture check
 > This track is **separate** from `02-Interview-Questions/` inside Study repos.  
 > Uneven topic counts are intentional: only questions actually asked — not a filled curriculum.
 
-| Repository | Focus | Status |
-|:---|:---|:---|
-| 🎤 [technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions) | PHP / Laravel backend interview **answer bank** — real questions from interviews sat by [@Galhoom22](https://github.com/Galhoom22). Study-order topics, model answers (PHP 8.5 · Laravel 13). Not a course, not a scraped dump. | 🟢 Active |
+| Repository | Focus | Progress | Status |
+|:---|:---|:---:|:---|
+| 🎤 [technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions) | PHP / Laravel backend interview **answer bank** — real questions from interviews sat by [@Galhoom22](https://github.com/Galhoom22). Study-order topics, model answers (PHP 8.5 · Laravel 13). Not a course, not a scraped dump. | **46** answers published | ⏸️ After fundamentals |
 
 ---
 
@@ -118,9 +177,9 @@ Production and portfolio applications — work you show in a hiring conversation
 > This track is **separate** from `03-Final-Project/` inside Study repos.  
 > Study capstones teach a subject. **Projects** are shipped (or shippable) applications with a real domain.
 
-| Repository | Focus | Status |
-|:---|:---|:---|
-| ⚡ [energy-conversion](https://github.com/galhoom-path/energy-conversion) | Energy metering & billing API — meters, tariffs, reconciliation (Laravel) | 🟢 Active |
+| Repository | Focus | Progress | Status |
+|:---|:---|:---:|:---|
+| ⚡ [energy-conversion](https://github.com/galhoom-path/energy-conversion) | Energy metering & billing API — meters, tariffs, reconciliation (Laravel) | **~1 / 5** epics started | ⏸️ After fundamentals |
 
 **Method in this track:** build for a real problem, keep architecture honest, document what a visitor should open first. Showcase projects may live under the org or under [@Galhoom22](https://github.com/Galhoom22) until moved into `galhoom-path`.
 
@@ -134,9 +193,9 @@ Production and portfolio applications — work you show in a hiring conversation
 > It is **not** language/framework curriculum (PHP, Laravel, Node, Django, … stay in Study or separate stack repos).  
 > Use it **alongside** any Study path: ideas that still matter when you switch languages.
 
-| Repository | Focus | Status |
-|:---|:---|:---|
-| 🧭 [backend-engineering](https://github.com/galhoom-path/backend-engineering) | Ordered notes: core backend → data (SQL/Postgres/Redis/Mongo) → OS/networking/CS → API craft → system design → Linux/Docker/K8s/DevOps → professional practice | 🟢 Active |
+| Repository | Focus | Progress | Status |
+|:---|:---|:---:|:---|
+| 🧭 [backend-engineering](https://github.com/galhoom-path/backend-engineering) | Ordered notes: core backend → data (SQL/Postgres/Redis/Mongo) → OS/networking/CS → API craft → system design → Linux/Docker/K8s/DevOps → professional practice | **234** notes published | ⏸️ After fundamentals |
 
 **Method in this track:** read in folder order; treat notes as transferable concepts; deepen a language stack in Study repos separately.
 
@@ -153,6 +212,7 @@ Production and portfolio applications — work you show in a hiring conversation
 | 🧭 | **Shared ≠ stack** | Foundations stay language-agnostic; Study owns one subject deep |
 | 🏗️ | **Projects ≠ Study capstones** | Portfolio apps prove shipping; Study finals prove the subject |
 | 🤝 | **Public and reusable** | Others can follow the same path |
+| 🎯 | **One focus at a time** | Finish the current Study repo before spreading across tracks |
 
 ---
 
@@ -160,12 +220,14 @@ Production and portfolio applications — work you show in a hiring conversation
 
 | Goal | Do this |
 |:---|:---|
-| Learn PHP from zero | Start **[🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** |
-| Shared backend concepts (any stack) | Open **[🧭 backend-engineering](https://github.com/galhoom-path/backend-engineering)** |
-| Practice DSA patterns (C++) | Open **[🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set)** |
-| Practice DSA in PHP | Open **[⚔️ php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling)** |
-| Backend interview answers | Open **[🎤 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions)** |
-| See shipped work | Open **[⚡ energy-conversion](https://github.com/galhoom-path/energy-conversion)** |
+| **Follow the current path** | Start **[🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** ← **current focus** |
+| Learn PHP from zero | Same — **[🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals)** |
+| See overall completion | Jump to **[📊 Path progress](#-path-progress)** |
+| Shared backend concepts (any stack) | Open **[🧭 backend-engineering](https://github.com/galhoom-path/backend-engineering)** *(queued after fundamentals)* |
+| Practice DSA patterns (C++) | Open **[🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set)** *(queued after fundamentals)* |
+| Practice DSA in PHP | Open **[⚔️ php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling)** *(queued after fundamentals)* |
+| Backend interview answers | Open **[🎤 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions)** *(queued after fundamentals)* |
+| See shipped work | Open **[⚡ energy-conversion](https://github.com/galhoom-path/energy-conversion)** *(queued after fundamentals)* |
 
 ---
 
