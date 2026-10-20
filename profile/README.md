@@ -117,7 +117,7 @@ All active repos · IDs = **Track.Repo** · journey order top → bottom.
 | **3.1** | 3️⃣ 🧠 Problem Solving | [⚔️ php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) | **0 / 238** gates | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | ⏸️ After Track **2** |
 | **3.2** | 3️⃣ 🧠 Problem Solving | [🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) | **1 / 49** problems | `[█░░░░░░░░░░░░░░░░░░░] **2%**` | ⬜ | ⏸️ After **3.1** (or parallel once 3.1 started) |
 | **4.1** | 4️⃣ 🎤 Interview Prep | [🎤 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions) | Answers drafted · **not 100%** | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | ⏸️ After Track **3** |
-| **5.1** | 5️⃣ 🏗️ Projects | [⚡ energy-conversion](https://github.com/galhoom-path/energy-conversion) | Practice build · **~1 / 5** epics | `[████░░░░░░░░░░░░░░░░] **~20%**` | ⬜ | ⏸️ After Track **4** |
+| **5.1** | 5️⃣ 🏗️ Projects | [⚡ energy-conversion](https://github.com/galhoom-path/energy-conversion) | Practice build · requirements-first · **~1 / 5** epics | `[████░░░░░░░░░░░░░░░░] **~20%**` | ⬜ | ⏸️ After Track **4** |
 
 <details>
 <summary><strong>How to read status</strong></summary>
