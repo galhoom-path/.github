@@ -21,7 +21,7 @@ IDs look like **`Track.Repo`** (example: **1.1** = first Study repo = `php-funda
 
 | If the new repo is… | Track | Next ID pattern |
 |:---|:---:|:---|
-| Subject learning series (Lectures → interviews → final) | **1** Study | `1.(N+1)` in series order |
+| Subject learning series (Lectures → interviews → Visual Maps → final) | **1** Study | `1.(N+1)` in series order |
 | Stack-agnostic backend notes (not a language course) | **2** Foundations | `2.(N+1)` |
 | DSA gym / LeetCode patterns | **3** Problem Solving | `3.(N+1)` — language fluency before interview pattern sets |
 | Standalone real-interview answer bank | **4** Interview Prep | `4.(N+1)` |
@@ -40,7 +40,7 @@ IDs look like **`Track.Repo`** (example: **1.1** = first Study repo = `php-funda
 - Dump a new repo into the wrong track “because it exists in the org”.
 - Skip the registry and only edit the README.
 - Change **current focus** without setting `current_focus_id` and the README Current focus section together.
-- Confuse Study `02-Interview-Questions/` with Track 4, or Study `03-Final-Project/` with Track 5.
+- Confuse Study `02-Interview-Questions/` with Track 4, or Study `04-Final-Project/` with Track 5. Study repos also have `03-Visual-Maps/` (internal step 3 — not an org journey track).
 - Imply any repo is finished without `complete: true` + profile `✅`.
 - Put real market / client / user-facing production work in Track 5 (those stay **private**). Track 5 is **practice only**, always **public**, and must include **requirements** (written and/or API contract) so others can rebuild without the reference solution.
 

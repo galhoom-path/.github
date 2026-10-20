@@ -22,8 +22,8 @@ Recommended flow (do not skip tracks):
 
 > ⚠️ **Don’t mix these up**  
 > • Study’s `02-Interview-Questions/` ≠ Track **4** Interview Prep  
-> • Study’s `03-Final-Project/` ≠ Track **5** Projects (practice builds)  
-> • Foundations ≠ a PHP/Laravel Study series (no Lectures → Final Project)  
+> • Study’s `03-Visual-Maps/` then `04-Final-Project/` ≠ Track **5** Projects (practice builds)  
+> • Foundations ≠ a PHP/Laravel Study series (no Lectures → Interviews → Visual Maps → Final Project)  
 > • Track **5** Projects ≠ real market products with users — those stay **private**; this track is **learn by doing**
 
 Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
@@ -83,7 +83,7 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 ### **1.1** · 🐘 [php-fundamentals](https://github.com/galhoom-path/php-fundamentals)
 
 **Track 1 · Study · Learning Series #1**  
-Core PHP 8.5+ (no OOP) — Lectures → Interview Questions → Final Project
+Core PHP 8.5+ (no OOP) — Lectures → Interview Questions → Visual Maps → Final Project
 
 | # | Item | Detail |
 |:---:|:---|:---|
@@ -165,7 +165,8 @@ Each Study repo teaches **one subject** with the same method:
 Inside every Study repo:
   1. 📚 Lectures
   2. 💼 Interview Questions (subject-mapped)   ← NOT Track 4
-  3. 🏗️ Final Project                          ← NOT Track 5
+  3. 🗺️ Visual Maps
+  4. 🏗️ Final Project                          ← NOT Track 5
 ```
 
 ✍️ You write every line of code yourself. Guides teach. Official documentation is the source of truth.  
@@ -179,8 +180,9 @@ Inside every Study repo:
 | **2** | Open that repo’s root `README.md` and follow **How to Start** |
 | **3** | Study **one lecture per session**. Type every example. Run the code. Fill the review card |
 | **4** | After all lectures, practice the **subject interview questions** (one per session) |
-| **5** | Build the **final project** milestone by milestone |
-| **6** | Move to the **next Study ID** (e.g. **1.1 → 1.2**). After the series advances, enter Track **2** |
+| **5** | Draw the **visual maps** (one per session) |
+| **6** | Build the **final project** milestone by milestone |
+| **7** | Move to the **next Study ID** (e.g. **1.1 → 1.2**). After the series advances, enter Track **2** |
 
 > ✍️ **Rule:** the tutor (or AI assistant) shows and explains. **You** write, save, and run the code.
 
@@ -204,7 +206,8 @@ Inside every Study repo:
 │
 ├── 📂 01-Lectures/              ← step 1 · curriculum
 ├── 📂 02-Interview-Questions/   ← step 2 · subject practice (≠ Track 4)
-├── 📂 03-Final-Project/         ← step 3 · Study capstone (≠ Track 5)
+├── 📂 03-Visual-Maps/           ← step 3 · diagrams / system maps
+├── 📂 04-Final-Project/         ← step 4 · Study capstone (≠ Track 5)
 ├── 📄 README.md
 └── 📄 template.md
 ```
@@ -221,7 +224,7 @@ Global Study blueprint: **[study-template](https://github.com/galhoom-path/study
 
 **Stack-agnostic** shared backend engineering — HTTP, data platforms, networking, system design, Docker/K8s literacy, DevOps/DevSecOps, API design/security, and interview practice maps.
 
-> **Not** a Study series (no Lectures → Final Project).  
+> **Not** a Study series (no Lectures → Interviews → Visual Maps → Final Project).  
 > **Not** language/framework curriculum (PHP, Laravel, … stay in Track **1**).  
 > Read notes in folder order; deepen the language stack in Study separately.
 
@@ -284,7 +287,7 @@ Public **practice builds** so your hands stay in the work — you learn more by 
 |:---|:---|
 | **Learn by doing** / deliberate practice | Real market products with real users |
 | **Public on purpose** — anyone can clone and practice | Client / production work (those stay **private**) |
-| A safe place to apply Study + Foundations + Problem Solving | Study’s `03-Final-Project/` capstone (that stays inside **1.x**) |
+| A safe place to apply Study + Foundations + Problem Solving | Study’s `04-Final-Project/` capstone (that stays inside **1.x**) |
 | Spec-first: every repo ships **requirements** you can implement alone | A dump of solutions with no brief |
 
 ### Requirements-first (for other builders)
