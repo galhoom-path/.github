@@ -96,6 +96,7 @@ Core PHP 8.5+ (no OOP) — Lectures → Interview Questions → Visual Maps → 
 
 [![Open php-fundamentals](https://img.shields.io/badge/Open-1.1%20php--fundamentals-2563EB?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals)
 [![Lectures](https://img.shields.io/badge/Lectures-0%2F30-lightgrey?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals#-my-progress)
+[![Maps](https://img.shields.io/badge/Visual%20Maps-0%2F12-lightgrey?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals#-track-3--visual-maps)
 [![Status](https://img.shields.io/badge/Status-Current%20focus-F59E0B?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals)
 
 </div>
@@ -162,15 +163,17 @@ Follow top → bottom. Each track **builds on** the one above it.
 Each Study repo teaches **one subject** with the same method:
 
 ```text
-Inside every Study repo:
-  1. 📚 Lectures
-  2. 💼 Interview Questions (subject-mapped)   ← NOT Track 4
-  3. 🗺️ Visual Maps
-  4. 🏗️ Final Project                          ← NOT Track 5
+Inside every Study repo (strict order):
+  1. 📚 Lectures              → learn
+  2. 💼 Interview Questions   → explain   (≠ org Track 4)
+  3. 🗺️ Visual Maps           → see / map the system
+  4. 🏗️ Final Project         → build     (≠ org Track 5)
 ```
 
 ✍️ You write every line of code yourself. Guides teach. Official documentation is the source of truth.  
-🔗 Repos form a **series with no repeated lessons** — each one starts exactly where the previous one stops.
+🗺️ Diagrams default to **Mermaid** in `map.md` (git-friendly). The last map is always the end-to-end system view.  
+🔗 Repos form a **series with no repeated lessons** — each one starts exactly where the previous one stops.  
+🧭 Method blueprint: **[study-template](https://github.com/galhoom-path/study-template)**
 
 ### How to study
 
@@ -317,15 +320,16 @@ Every Track **5** repo will include the **requirements** needed to rebuild it yo
 | # | Principle | Meaning |
 |:---:|:---|:---|
 | **1** | 📜 **Official / primary sources** | Prefer manuals, docs, and trusted primary material |
-| **2** | ✍️ **You do the work** | Reading ≠ mastery — write, run, explain |
-| **3** | 🎯 **Depth over dump** | Few concepts or patterns per session |
-| **4** | 🧱 **Study before Foundations** | Write code first (**1.x**), then deepen shared concepts (**2.x**) |
-| **5** | 🧭 **Shared ≠ stack** | Foundations stay language-agnostic; Study owns one subject deep |
-| **6** | 🏗️ **Projects = practice** | Track 5 is learn-by-doing public builds — not market products (those stay private) |
-| **7** | 🤝 **Public and reusable** | Others can follow the same path |
-| **8** | 🎯 **One focus at a time** | Finish **1.1** before spreading across later tracks |
-| **9** | ✅ **Complete only at 100%** | `✅` appears only when the maintainer marks a repo finished for the current curriculum |
-| **10** | 🔄 **Living updates** | After `✅`, version bumps (e.g. PHP **8.5 → 8.6**) still land in the **same** repo |
+| **2** | ✍️ **You do the work** | Reading ≠ mastery — write, run, explain, map |
+| **3** | 🗺️ **Map before build** | Inside Study: Lectures → Interviews → **Visual Maps** → Final Project |
+| **4** | 🎯 **Depth over dump** | Few concepts or patterns per session |
+| **5** | 🧱 **Study before Foundations** | Write code first (**1.x**), then deepen shared concepts (**2.x**) |
+| **6** | 🧭 **Shared ≠ stack** | Foundations stay language-agnostic; Study owns one subject deep |
+| **7** | 🏗️ **Projects = practice** | Track 5 is learn-by-doing public builds — not market products (those stay private) |
+| **8** | 🤝 **Public and reusable** | Others can follow the same path |
+| **9** | 🎯 **One focus at a time** | Finish **1.1** before spreading across later tracks |
+| **10** | ✅ **Complete only at 100%** | `✅` appears only when the maintainer marks a repo finished for the current curriculum |
+| **11** | 🔄 **Living updates** | After `✅`, version bumps (e.g. PHP **8.5 → 8.6**) still land in the **same** repo |
 
 ---
 
@@ -350,4 +354,4 @@ Built and maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
 💬 Questions or improvements? Open an issue on the relevant repository.
 
-**Journey: 1 Study → 2 Foundations → 3 Solve → 4 Interview → 5 Practice builds · Start at 1.1 · 🏅 Master.**
+**Journey: 1 Study → 2 Foundations → 3 Solve → 4 Interview → 5 Practice builds · Inside Study: Learn → Explain → Map → Build · Start at 1.1 · 🏅 Master.**
