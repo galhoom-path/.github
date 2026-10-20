@@ -27,6 +27,8 @@ Recommended flow (do not skip tracks):
 
 Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
+> 🔒 **Order is enforced:** canonical registry → [`path-registry.json`](https://github.com/galhoom-path/.github/blob/main/path-registry.json) · agent rules → [`AGENTS.md`](https://github.com/galhoom-path/.github/blob/main/AGENTS.md) · CI → *Validate Galhoom Path order*. New org repos must get the next **`N.M`** ID in the correct track — never a random slot.
+
 ---
 
 ### How to read the numbers

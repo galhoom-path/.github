@@ -1,0 +1,32 @@
+name: Validate Galhoom Path order
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "path-registry.json"
+      - "profile/README.md"
+      - "scripts/validate_path.py"
+      - ".github/workflows/validate-path.yml"
+  pull_request:
+    paths:
+      - "path-registry.json"
+      - "profile/README.md"
+      - "scripts/validate_path.py"
+      - ".github/workflows/validate-path.yml"
+
+jobs:
+  validate-path:
+    name: Path registry ↔ profile README
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate track / repo order
+        run: python scripts/validate_path.py

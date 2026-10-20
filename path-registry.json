@@ -1,0 +1,149 @@
+{
+  "$schema_comment": "Canonical Galhoom Path order. Agents MUST read this before creating or placing any org repo. CI validates profile/README.md against this file.",
+  "version": 1,
+  "organization": "galhoom-path",
+  "current_focus_id": "1.1",
+  "journey_rule": "Tracks are a single pipeline. Do not reorder tracks. Do not insert a new track between existing ones without an explicit human decision to revise this registry first.",
+  "tracks": [
+    {
+      "id": 1,
+      "key": "study",
+      "name": "Study",
+      "emoji": "📘",
+      "role": "Learn to write code in one subject (Lectures → subject interviews → Final Project).",
+      "unlocks": 2,
+      "repo_order_rule": "Strict series order. Never skip ahead (1.1 before 1.2 before 1.3…)."
+    },
+    {
+      "id": 2,
+      "key": "foundations",
+      "name": "Foundations",
+      "emoji": "🧭",
+      "role": "Stack-agnostic backend concepts after Study is underway.",
+      "needs": 1,
+      "unlocks": 3,
+      "repo_order_rule": "Add as 2.N in ascending order."
+    },
+    {
+      "id": 3,
+      "key": "problem-solving",
+      "name": "Problem Solving",
+      "emoji": "🧠",
+      "role": "DSA fluency then interview patterns.",
+      "needs": 2,
+      "unlocks": 4,
+      "repo_order_rule": "Language fluency gates before language-agnostic interview pattern sets when both exist for the same path."
+    },
+    {
+      "id": 4,
+      "key": "interview-prep",
+      "name": "Interview Prep",
+      "emoji": "🎤",
+      "role": "Standalone real-interview answer banks (not Study 02-Interview-Questions).",
+      "needs": 3,
+      "unlocks": 5,
+      "repo_order_rule": "Add as 4.N in ascending order."
+    },
+    {
+      "id": 5,
+      "key": "projects",
+      "name": "Projects",
+      "emoji": "🏗️",
+      "role": "Production / portfolio apps (not Study 03-Final-Project).",
+      "needs": 4,
+      "unlocks": null,
+      "repo_order_rule": "Add as 5.N in ascending order. Ship last in the journey."
+    }
+  ],
+  "repos": [
+    {
+      "id": "1.1",
+      "track": 1,
+      "name": "php-fundamentals",
+      "url": "https://github.com/galhoom-path/php-fundamentals",
+      "status": "current_focus",
+      "metric": "0/30 lectures"
+    },
+    {
+      "id": "1.2",
+      "track": 1,
+      "name": "php-oop",
+      "url": "https://github.com/galhoom-path/php-oop",
+      "status": "queued_after_previous",
+      "metric": "12/31 lectures"
+    },
+    {
+      "id": "1.3",
+      "track": 1,
+      "name": "php-ood",
+      "url": null,
+      "status": "planned",
+      "metric": null
+    },
+    {
+      "id": "1.4",
+      "track": 1,
+      "name": "php-design-patterns",
+      "url": null,
+      "status": "planned",
+      "metric": null
+    },
+    {
+      "id": "2.1",
+      "track": 2,
+      "name": "backend-engineering",
+      "url": "https://github.com/galhoom-path/backend-engineering",
+      "status": "queued_after_previous",
+      "metric": "234 notes published"
+    },
+    {
+      "id": "3.1",
+      "track": 3,
+      "name": "php-problem-solving-solo-leveling",
+      "url": "https://github.com/galhoom-path/php-problem-solving-solo-leveling",
+      "status": "queued_after_previous",
+      "metric": "0/238 gates"
+    },
+    {
+      "id": "3.2",
+      "track": 3,
+      "name": "LeetCode-DSA-Pareto-Set",
+      "url": "https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set",
+      "status": "queued_after_previous",
+      "metric": "1/49 problems"
+    },
+    {
+      "id": "4.1",
+      "track": 4,
+      "name": "technical-interview-questions",
+      "url": "https://github.com/galhoom-path/technical-interview-questions",
+      "status": "queued_after_previous",
+      "metric": "46 answers published"
+    },
+    {
+      "id": "5.1",
+      "track": 5,
+      "name": "energy-conversion",
+      "url": "https://github.com/galhoom-path/energy-conversion",
+      "status": "queued_after_previous",
+      "metric": "~1/5 epics"
+    }
+  ],
+  "placement_algorithm": [
+    "1. Classify the new repo into exactly one track using track.role (Study / Foundations / Problem Solving / Interview Prep / Projects).",
+    "2. Never invent a 6th track or reorder tracks 1–5 without updating this registry first and getting explicit approval.",
+    "3. Assign the next ID in that track: max existing M for track N → new id N.(M+1). Planned placeholders (null url) still occupy an ID.",
+    "4. If the new Study repo belongs in the Learning Series between existing items, renumber later 1.x entries in this registry AND profile/README.md together — never leave gaps or out-of-order names.",
+    "5. Update path-registry.json FIRST, then profile/README.md (IDs, bars, status), then org description if current_focus changes, then Galhoom22 profile if relevant.",
+    "6. Run scripts/validate_path.py locally (or wait for CI) before considering the change done.",
+    "7. New repos are queued_after_previous unless the human explicitly sets current_focus_id to the new id."
+  ],
+  "forbidden": [
+    "Adding a repo to the org profile without an ID in this registry",
+    "Placing a Project repo under Study or a Study lecture-map under Interview Prep",
+    "Putting Foundations before Study in the journey",
+    "Putting Projects before Interview Prep / Problem Solving / Foundations / Study",
+    "Putting LeetCode-style interview pattern sets before same-language fluency gyms when both are Track 3",
+    "Changing current_focus without updating current_focus_id here and the Current focus section in profile/README.md"
+  ]
+}
