@@ -25,7 +25,7 @@ IDs look like **`Track.Repo`** (example: **1.1** = first Study repo = `php-funda
 | Stack-agnostic backend notes (not a language course) | **2** Foundations | `2.(N+1)` |
 | DSA gym / LeetCode patterns | **3** Problem Solving | `3.(N+1)` — language fluency before interview pattern sets |
 | Standalone real-interview answer bank | **4** Interview Prep | `4.(N+1)` |
-| Production / portfolio application | **5** Projects | `5.(N+1)` |
+| Public learn-by-doing practice build (with requirements / API contract; not a market product) | **5** Projects | `5.(N+1)` |
 
 ## Completion & living updates
 
@@ -42,6 +42,7 @@ IDs look like **`Track.Repo`** (example: **1.1** = first Study repo = `php-funda
 - Change **current focus** without setting `current_focus_id` and the README Current focus section together.
 - Confuse Study `02-Interview-Questions/` with Track 4, or Study `03-Final-Project/` with Track 5.
 - Imply any repo is finished without `complete: true` + profile `✅`.
+- Put real market / client / user-facing production work in Track 5 (those stay **private**). Track 5 is **practice only**, always **public**, and must include **requirements** (written and/or API contract) so others can rebuild without the reference solution.
 
 ## CI
 

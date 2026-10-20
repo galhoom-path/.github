@@ -56,10 +56,11 @@
       "key": "projects",
       "name": "Projects",
       "emoji": "🏗️",
-      "role": "Production / portfolio apps (not Study 03-Final-Project).",
+      "role": "Public learn-by-doing practice builds (not market products; not Study 03-Final-Project). Real client/production work stays private. Every repo must ship requirements (written and/or API contract) so others can implement without reading the reference solution.",
       "needs": 4,
       "unlocks": null,
-      "repo_order_rule": "Add as 5.N in ascending order. Ship last in the journey."
+      "repo_order_rule": "Add as 5.N in ascending order. Last step in the journey. Always public practice — never list private commercial work here.",
+      "requirements_rule": "Each Track 5 repo includes rebuildable requirements: written brief and/or API/OpenAPI contract (or mixed)."
     }
   ],
   "repos": [

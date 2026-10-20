@@ -127,9 +127,11 @@ def main() -> None:
         "Completion & living updates",
         "No repo is finished today",
         "Living repos",
+        "learn by doing",
+        "Requirements-first",
     ):
         if phrase not in readme:
-            fail(f"README missing completion-policy phrase: {phrase!r}")
+            fail(f"README missing required phrase: {phrase!r}")
 
     banned = ("notes ready", "bank ready")
     lowered = readme.lower()

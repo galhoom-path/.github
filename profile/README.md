@@ -9,7 +9,7 @@ Same standards (structure, practice, official sources). **One pipeline** — eac
 2. 🧭 Foundations      →  stack-agnostic backend concepts (HTTP, data, design, ops)
 3. 🧠 Problem Solving  →  DSA patterns with real coding problems
 4. 🎤 Interview Prep   →  real interview answer banks / role prep
-5. 🏗️ Projects         →  production / portfolio apps you can show
+5. 🏗️ Projects         →  learn-by-doing practice builds (public · not market products)
 ```
 
 ```text
@@ -22,8 +22,9 @@ Recommended flow (do not skip tracks):
 
 > ⚠️ **Don’t mix these up**  
 > • Study’s `02-Interview-Questions/` ≠ Track **4** Interview Prep  
-> • Study’s `03-Final-Project/` ≠ Track **5** Projects  
-> • Foundations ≠ a PHP/Laravel Study series (no Lectures → Final Project)
+> • Study’s `03-Final-Project/` ≠ Track **5** Projects (practice builds)  
+> • Foundations ≠ a PHP/Laravel Study series (no Lectures → Final Project)  
+> • Track **5** Projects ≠ real market products with users — those stay **private**; this track is **learn by doing**
 
 Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
@@ -116,7 +117,7 @@ All active repos · IDs = **Track.Repo** · journey order top → bottom.
 | **3.1** | 3️⃣ 🧠 Problem Solving | [⚔️ php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) | **0 / 238** gates | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | ⏸️ After Track **2** |
 | **3.2** | 3️⃣ 🧠 Problem Solving | [🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) | **1 / 49** problems | `[█░░░░░░░░░░░░░░░░░░░] **2%**` | ⬜ | ⏸️ After **3.1** (or parallel once 3.1 started) |
 | **4.1** | 4️⃣ 🎤 Interview Prep | [🎤 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions) | Answers drafted · **not 100%** | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | ⏸️ After Track **3** |
-| **5.1** | 5️⃣ 🏗️ Projects | [⚡ energy-conversion](https://github.com/galhoom-path/energy-conversion) | **~1 / 5** epics | `[████░░░░░░░░░░░░░░░░] **~20%**` | ⬜ | ⏸️ After Track **4** |
+| **5.1** | 5️⃣ 🏗️ Projects | [⚡ energy-conversion](https://github.com/galhoom-path/energy-conversion) | Practice build · **~1 / 5** epics | `[████░░░░░░░░░░░░░░░░] **~20%**` | ⬜ | ⏸️ After Track **4** |
 
 <details>
 <summary><strong>How to read status</strong></summary>
@@ -147,7 +148,7 @@ Follow top → bottom. Each track **builds on** the one above it.
 | **2** | **🧭 Foundations** | Next: shared backend concepts that transfer across stacks | **2.1** | [§5](#5--track-2--foundations) |
 | **3** | **🧠 Problem Solving** | Then: train patterns & fluency (PHP gates → Pareto DSA) | **3.1 → 3.2** | [§6](#6--track-3--problem-solving) |
 | **4** | **🎤 Interview Prep** | Then: practice answering real interview questions | **4.1** | [§7](#7--track-4--interview-prep) |
-| **5** | **🏗️ Projects** | Last: ship portfolio / production apps | **5.1** | [§8](#8--track-5--projects) |
+| **5** | **🏗️ Projects** | Last: **learn by doing** — public practice builds (not market products) | **5.1** | [§8](#8--track-5--projects) |
 
 ---
 
@@ -257,7 +258,7 @@ Global Study blueprint: **[study-template](https://github.com/galhoom-path/study
 
 **Position in journey:** Step **4 / 5** — after Study + Foundations + Problem Solving practice.  
 **Needs:** Tracks **1–3**.  
-**Unlocks:** Track **5** Projects (ship with interview-ready confidence).
+**Unlocks:** Track **5** Projects (practice builds · learn by doing).
 
 Standalone **interview answer banks** from real interviews — not lecture checklists.
 
@@ -272,19 +273,39 @@ Standalone **interview answer banks** from real interviews — not lecture check
 
 ## 8 · Track 5 — Projects
 
-**Position in journey:** Step **5 / 5** — last: prove you can ship.  
+**Position in journey:** Step **5 / 5** — last: **learn by doing**.  
 **Needs:** Tracks **1–4** (skills + concepts + problem-solving + interview readiness).
 
-Production and portfolio applications — work you show in a hiring conversation.
+### What this track is
 
-> Separate from `03-Final-Project/` inside Study repos (**1.x**).  
-> Study capstones teach a subject. **Projects** are shipped (or shippable) apps with a real domain.
+Public **practice builds** so your hands stay in the work — you learn more by **building**, not by only reading.
+
+| This track **is** | This track **is not** |
+|:---|:---|
+| **Learn by doing** / deliberate practice | Real market products with real users |
+| **Public on purpose** — anyone can clone and practice | Client / production work (those stay **private**) |
+| A safe place to apply Study + Foundations + Problem Solving | Study’s `03-Final-Project/` capstone (that stays inside **1.x**) |
+| Spec-first: every repo ships **requirements** you can implement alone | A dump of solutions with no brief |
+
+### Requirements-first (for other builders)
+
+Every Track **5** repo will include the **requirements** needed to rebuild it yourself — even if you never open the maintainer’s implementation.
+
+| Form | Example |
+|:---|:---|
+| **Written requirements** | Goals, scope, acceptance criteria, constraints |
+| **API / contract specs** | OpenAPI / API contract files you implement against |
+| **Mixed** | Written brief + contract + edge cases |
+
+> 🛠️ **How to use a project as practice:** read the requirements → implement your own solution → (optional) compare later. You do **not** have to look at the reference code.
+
+### Repos in Track 5
 
 | ID | Repository | Focus | Progress | Progress bar | Complete? | Status |
 |:---:|:---|:---|:---:|:---|:---:|:---|
-| **5.1** | ⚡ [energy-conversion](https://github.com/galhoom-path/energy-conversion) | Energy metering & billing API — meters, tariffs, reconciliation (Laravel) | **~1 / 5** epics | `[████░░░░░░░░░░░░░░░░] **~20%**` | ⬜ | ⏸️ After Track **4** |
+| **5.1** | ⚡ [energy-conversion](https://github.com/galhoom-path/energy-conversion) | Practice build — energy metering & billing API (meters, tariffs, reconciliation · Laravel) | **~1 / 5** epics | `[████░░░░░░░░░░░░░░░░] **~20%**` | ⬜ | ⏸️ After Track **4** |
 
-**Method:** build for a real problem, keep architecture honest, document what a visitor should open first. Showcase projects may live under the org or under [@Galhoom22](https://github.com/Galhoom22) until moved into `galhoom-path`.
+**Method:** pick a realistic domain problem → publish clear requirements → build in public as practice → keep hands busy. Real commercial/user-facing work stays **private** and is **not** listed here.
 
 ---
 
@@ -297,7 +318,7 @@ Production and portfolio applications — work you show in a hiring conversation
 | **3** | 🎯 **Depth over dump** | Few concepts or patterns per session |
 | **4** | 🧱 **Study before Foundations** | Write code first (**1.x**), then deepen shared concepts (**2.x**) |
 | **5** | 🧭 **Shared ≠ stack** | Foundations stay language-agnostic; Study owns one subject deep |
-| **6** | 🏗️ **Projects last** | Portfolio apps come after skills + concepts + practice |
+| **6** | 🏗️ **Projects = practice** | Track 5 is learn-by-doing public builds — not market products (those stay private) |
 | **7** | 🤝 **Public and reusable** | Others can follow the same path |
 | **8** | 🎯 **One focus at a time** | Finish **1.1** before spreading across later tracks |
 | **9** | ✅ **Complete only at 100%** | `✅` appears only when the maintainer marks a repo finished for the current curriculum |
@@ -316,7 +337,7 @@ Production and portfolio applications — work you show in a hiring conversation
 | **5** | Later: PHP DSA gates | **[3.1 php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling)** *(after Track 2)* |
 | **6** | Later: LeetCode patterns | **[3.2 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set)** *(after 3.1)* |
 | **7** | Later: Interview answers | **[4.1 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions)** *(after Track 3)* |
-| **8** | Later: Shipped work | **[5.1 energy-conversion](https://github.com/galhoom-path/energy-conversion)** *(after Track 4)* |
+| **8** | Later: Practice builds | **[5.1 energy-conversion](https://github.com/galhoom-path/energy-conversion)** *(after Track 4 · learn by doing)* |
 
 ---
 
@@ -326,4 +347,4 @@ Built and maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
 💬 Questions or improvements? Open an issue on the relevant repository.
 
-**Journey: 1 Study → 2 Foundations → 3 Solve → 4 Interview → 5 Build · Start at 1.1 · 🏅 Master.**
+**Journey: 1 Study → 2 Foundations → 3 Solve → 4 Interview → 5 Practice builds · Start at 1.1 · 🏅 Master.**
