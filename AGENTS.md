@@ -27,12 +27,21 @@ IDs look like **`Track.Repo`** (example: **1.1** = first Study repo = `php-funda
 | Standalone real-interview answer bank | **4** Interview Prep | `4.(N+1)` |
 | Production / portfolio application | **5** Projects | `5.(N+1)` |
 
+## Completion & living updates
+
+- Every repo has `complete: false` until the human explicitly says it hit **100%**.
+- Progress bars = maintainer progress to 100%. **Published files ≠ finished.**
+- Never write **notes ready**, **bank ready**, or a full bar while `complete` is false.
+- When the human marks 100%: set `complete: true` and show **`✅ Complete`** on the profile.
+- After `✅`, the same repo still gets **living updates** (e.g. PHP 8.5 → 8.6 material added in-place).
+
 ## Never
 
 - Dump a new repo into the wrong track “because it exists in the org”.
 - Skip the registry and only edit the README.
 - Change **current focus** without setting `current_focus_id` and the README Current focus section together.
 - Confuse Study `02-Interview-Questions/` with Track 4, or Study `03-Final-Project/` with Track 5.
+- Imply any repo is finished without `complete: true` + profile `✅`.
 
 ## CI
 

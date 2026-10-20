@@ -122,8 +122,39 @@ def main() -> None:
         if phrase not in readme:
             fail(f"README missing journey phrase: {phrase!r}")
 
+    # 7) Completion policy must be visible; never imply unfinished repos are done
+    for phrase in (
+        "Completion & living updates",
+        "No repo is finished today",
+        "Living repos",
+    ):
+        if phrase not in readme:
+            fail(f"README missing completion-policy phrase: {phrase!r}")
+
+    banned = ("notes ready", "bank ready")
+    lowered = readme.lower()
+    for phrase in banned:
+        if phrase in lowered:
+            fail(
+                f"README must not say {phrase!r} "
+                "(published content is not completion)"
+            )
+
+    incomplete = [r for r in repos if r.get("complete") is not True]
+    if any(r.get("complete") is True for r in repos):
+        # If any are complete, profile should show a checkmark somewhere — soft OK
+        pass
+    else:
+        # All incomplete: path progress must not claim everything finished
+        if "Today: **none** are complete" not in readme and "none** are complete" not in readme:
+            if "Zero** active repos have" not in readme and "Zero** active repos" not in readme:
+                # Accept either wording from completion section
+                if "No repo is finished today" not in readme:
+                    fail("When all repos are incomplete, README must state none are finished")
+
     print("OK: path-registry.json <-> profile/README.md order checks passed.")
     print(f"  tracks: {len(tracks)} | repos: {len(repos)} | focus: {focus}")
+    print(f"  incomplete repos: {len(incomplete)}/{len(repos)}")
 
 
 if __name__ == "__main__":

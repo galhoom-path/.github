@@ -4,6 +4,13 @@
   "organization": "galhoom-path",
   "current_focus_id": "1.1",
   "journey_rule": "Tracks are a single pipeline. Do not reorder tracks. Do not insert a new track between existing ones without an explicit human decision to revise this registry first.",
+  "completion_policy": {
+    "complete_means": "Maintainer explicitly marked the repo at 100% of its current curriculum / milestones (shown as Complete? = checkmark on the org profile).",
+    "today": "No active repo is complete. complete=false for every repo until the maintainer says otherwise.",
+    "published_content_is_not_complete": "Scaffolded notes, drafted answers, or existing files must never be shown as notes ready / bank ready / 100% full bars.",
+    "living_updates": "Even after complete=true, the same repo keeps receiving periodic updates (example: PHP 8.5 curriculum → add PHP 8.6 material in-place). Never treat a checkmark as frozen forever.",
+    "profile_rule": "Progress bars track maintainer progress to 100%. Complete? column is white square until 100%, then checkmark."
+  },
   "tracks": [
     {
       "id": 1,
@@ -62,6 +69,7 @@
       "name": "php-fundamentals",
       "url": "https://github.com/galhoom-path/php-fundamentals",
       "status": "current_focus",
+      "complete": false,
       "metric": "0/30 lectures"
     },
     {
@@ -70,6 +78,7 @@
       "name": "php-oop",
       "url": "https://github.com/galhoom-path/php-oop",
       "status": "queued_after_previous",
+      "complete": false,
       "metric": "12/31 lectures"
     },
     {
@@ -78,6 +87,7 @@
       "name": "php-ood",
       "url": null,
       "status": "planned",
+      "complete": false,
       "metric": null
     },
     {
@@ -86,6 +96,7 @@
       "name": "php-design-patterns",
       "url": null,
       "status": "planned",
+      "complete": false,
       "metric": null
     },
     {
@@ -94,7 +105,8 @@
       "name": "backend-engineering",
       "url": "https://github.com/galhoom-path/backend-engineering",
       "status": "queued_after_previous",
-      "metric": "234 notes published"
+      "complete": false,
+      "metric": "notes scaffolded · not 100%"
     },
     {
       "id": "3.1",
@@ -102,6 +114,7 @@
       "name": "php-problem-solving-solo-leveling",
       "url": "https://github.com/galhoom-path/php-problem-solving-solo-leveling",
       "status": "queued_after_previous",
+      "complete": false,
       "metric": "0/238 gates"
     },
     {
@@ -110,6 +123,7 @@
       "name": "LeetCode-DSA-Pareto-Set",
       "url": "https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set",
       "status": "queued_after_previous",
+      "complete": false,
       "metric": "1/49 problems"
     },
     {
@@ -118,7 +132,8 @@
       "name": "technical-interview-questions",
       "url": "https://github.com/galhoom-path/technical-interview-questions",
       "status": "queued_after_previous",
-      "metric": "46 answers published"
+      "complete": false,
+      "metric": "answers drafted · not 100%"
     },
     {
       "id": "5.1",
@@ -126,6 +141,7 @@
       "name": "energy-conversion",
       "url": "https://github.com/galhoom-path/energy-conversion",
       "status": "queued_after_previous",
+      "complete": false,
       "metric": "~1/5 epics"
     }
   ],
@@ -134,9 +150,11 @@
     "2. Never invent a 6th track or reorder tracks 1–5 without updating this registry first and getting explicit approval.",
     "3. Assign the next ID in that track: max existing M for track N → new id N.(M+1). Planned placeholders (null url) still occupy an ID.",
     "4. If the new Study repo belongs in the Learning Series between existing items, renumber later 1.x entries in this registry AND profile/README.md together — never leave gaps or out-of-order names.",
-    "5. Update path-registry.json FIRST, then profile/README.md (IDs, bars, status), then org description if current_focus changes, then Galhoom22 profile if relevant.",
+    "5. Update path-registry.json FIRST, then profile/README.md (IDs, bars, Complete?, status), then org description if current_focus changes, then Galhoom22 profile if relevant.",
     "6. Run scripts/validate_path.py locally (or wait for CI) before considering the change done.",
-    "7. New repos are queued_after_previous unless the human explicitly sets current_focus_id to the new id."
+    "7. New repos are queued_after_previous unless the human explicitly sets current_focus_id to the new id.",
+    "8. New repos always start with complete=false. Never show notes ready / bank ready / full progress bars unless complete=true and progress is truly 100%.",
+    "9. Set complete=true only when the human explicitly says the repo reached 100%. Even then, keep documenting living_updates for future version bumps in the same repo."
   ],
   "forbidden": [
     "Adding a repo to the org profile without an ID in this registry",
@@ -144,6 +162,8 @@
     "Putting Foundations before Study in the journey",
     "Putting Projects before Interview Prep / Problem Solving / Foundations / Study",
     "Putting LeetCode-style interview pattern sets before same-language fluency gyms when both are Track 3",
-    "Changing current_focus without updating current_focus_id here and the Current focus section in profile/README.md"
+    "Changing current_focus without updating current_focus_id here and the Current focus section in profile/README.md",
+    "Marking any repo complete=true or Complete? checkmark without an explicit human 100% decision",
+    "Using notes ready, bank ready, or a full 20/20 progress bar to mean content exists while complete=false"
   ]
 }

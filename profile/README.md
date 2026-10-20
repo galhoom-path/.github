@@ -37,9 +37,23 @@ Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 |:---|:---|:---|
 | **Track N** | Step **N** in the journey | Track **1** = Study (start here) |
 | **N.M** | Repo **M** inside Track **N** (do in order) | **1.1** = php-fundamentals |
-| Progress bar | 20 blocks · `█` done · `░` left | `[████░░░░░░░░░░░░░░░░] 20%` |
+| Progress bar | Maintainer completion toward **100%** · 20 blocks · `█` done · `░` left | `[████░░░░░░░░░░░░░░░░] 20%` |
+| **Complete?** | `⬜` = not finished · `✅` = maintainer marked **100%** for the current curriculum | See below |
 
 > **Right now:** finish **1.1** first. Every other ID stays queued until then.
+
+---
+
+### Completion & living updates
+
+| Rule | Meaning |
+|:---|:---|
+| **No repo is finished today** | **Zero** active repos have `✅`. Published notes, answer banks, or code ≠ “complete”. |
+| **`✅` = 100% only** | When a repo hits **100%** of its current curriculum / milestones, it gets a clear **`✅ Complete`** mark here so later visitors know it was finished. |
+| **Living repos** | Even after `✅`, the same repo keeps getting **periodic updates** (new language versions, new chapters, fixes). Example: curriculum targets **PHP 8.5+** now; when **PHP 8.6** ships, new material lands **in that same repo** — not a separate “done forever” archive. |
+| **Progress bar** | Tracks **maintainer progress to 100%**, not “how much content exists on disk”. |
+
+> ⚠️ **Do not treat a full-looking folder as finished.** Until you see **`✅ Complete`** on this org profile, assume the repo is still **in progress**.
 
 ---
 
@@ -77,6 +91,7 @@ Core PHP 8.5+ (no OOP) — Lectures → Interview Questions → Final Project
 | **3** | **Bar** | `[░░░░░░░░░░░░░░░░░░░░] **0%**` |
 | **4** | **Next lecture** | Lecture 01 — *Why Static Pages Are Not Enough* |
 | **5** | **After 1.1** | Continue Study **1.2 → …**, then Track **2** Foundations |
+| **6** | **Complete?** | ⬜ **Not finished** — `✅` only when this repo hits **100%** (still gets living updates afterward) |
 
 [![Open php-fundamentals](https://img.shields.io/badge/Open-1.1%20php--fundamentals-2563EB?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals)
 [![Lectures](https://img.shields.io/badge/Lectures-0%2F30-lightgrey?style=for-the-badge)](https://github.com/galhoom-path/php-fundamentals#-my-progress)
@@ -90,17 +105,18 @@ Core PHP 8.5+ (no OOP) — Lectures → Interview Questions → Final Project
 
 ## 2 · Path progress
 
-All active repos · IDs = **Track.Repo** · journey order top → bottom.
+All active repos · IDs = **Track.Repo** · journey order top → bottom.  
+**Complete? = `✅` only at 100%.** Today: **none** are complete.
 
-| ID | Track | Repository | Done | Progress bar | Status |
-|:---:|:---|:---|:---:|:---|:---|
-| **1.1** | 1️⃣ 📘 Study | [🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | **0 / 30** lectures | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | 🎯 **Current focus** |
-| **1.2** | 1️⃣ 📘 Study | [🧩 php-oop](https://github.com/galhoom-path/php-oop) | **12 / 31** lectures | `[████████░░░░░░░░░░░░] **39%**` | ⏸️ After **1.1** |
-| **2.1** | 2️⃣ 🧭 Foundations | [🧭 backend-engineering](https://github.com/galhoom-path/backend-engineering) | **234** notes published | `[████████████████████] **notes ready**` | ⏸️ After Track **1** progress |
-| **3.1** | 3️⃣ 🧠 Problem Solving | [⚔️ php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) | **0 / 238** gates | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⏸️ After Track **2** |
-| **3.2** | 3️⃣ 🧠 Problem Solving | [🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) | **1 / 49** problems | `[█░░░░░░░░░░░░░░░░░░░] **2%**` | ⏸️ After **3.1** (or parallel once 3.1 started) |
-| **4.1** | 4️⃣ 🎤 Interview Prep | [🎤 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions) | **46** answers published | `[████████████████████] **bank ready**` | ⏸️ After Track **3** |
-| **5.1** | 5️⃣ 🏗️ Projects | [⚡ energy-conversion](https://github.com/galhoom-path/energy-conversion) | **~1 / 5** epics | `[████░░░░░░░░░░░░░░░░] **~20%**` | ⏸️ After Track **4** |
+| ID | Track | Repository | Progress | Progress bar | Complete? | Status |
+|:---:|:---|:---|:---:|:---|:---:|:---|
+| **1.1** | 1️⃣ 📘 Study | [🐘 php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | **0 / 30** lectures | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | 🎯 **Current focus** |
+| **1.2** | 1️⃣ 📘 Study | [🧩 php-oop](https://github.com/galhoom-path/php-oop) | **12 / 31** lectures | `[████████░░░░░░░░░░░░] **39%**` | ⬜ | ⏸️ After **1.1** |
+| **2.1** | 2️⃣ 🧭 Foundations | [🧭 backend-engineering](https://github.com/galhoom-path/backend-engineering) | Notes scaffolded · **not 100%** | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | ⏸️ After Track **1** progress |
+| **3.1** | 3️⃣ 🧠 Problem Solving | [⚔️ php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) | **0 / 238** gates | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | ⏸️ After Track **2** |
+| **3.2** | 3️⃣ 🧠 Problem Solving | [🧮 LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) | **1 / 49** problems | `[█░░░░░░░░░░░░░░░░░░░] **2%**` | ⬜ | ⏸️ After **3.1** (or parallel once 3.1 started) |
+| **4.1** | 4️⃣ 🎤 Interview Prep | [🎤 technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions) | Answers drafted · **not 100%** | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | ⏸️ After Track **3** |
+| **5.1** | 5️⃣ 🏗️ Projects | [⚡ energy-conversion](https://github.com/galhoom-path/energy-conversion) | **~1 / 5** epics | `[████░░░░░░░░░░░░░░░░] **~20%**` | ⬜ | ⏸️ After Track **4** |
 
 <details>
 <summary><strong>How to read status</strong></summary>
@@ -111,10 +127,11 @@ All active repos · IDs = **Track.Repo** · journey order top → bottom.
 |:---:|:---|:---|
 | **1** | 🎯 **Current focus** | Only active repo right now (**1.1**) |
 | **2** | ⏸️ **After …** | Queued until the previous step in the journey |
-| **3** | Counts / bars | From each repo’s own tracker |
-| **4** | **notes / bank ready** | Content published; personal drill may still be TBD |
+| **3** | Progress / bar | Maintainer progress toward **100%** (not “files exist”) |
+| **4** | ⬜ **Complete?** | **Not finished** — do not treat as done |
+| **5** | ✅ **Complete?** | Maintainer marked **100%** for the current curriculum (still receives living updates) |
 
-> Progress numbers are updated manually here when source repos change.
+> **Snapshot:** no repo currently has `✅`. Progress numbers are updated manually when source repos change. Living updates (e.g. PHP **8.5 → 8.6**) always land in the **same** repo.
 
 </details>
 
@@ -168,13 +185,13 @@ Inside every Study repo:
 
 ### Repos in Track 1 (do in order)
 
-| ID | Repository | What you learn | Progress bar | Done | Status |
-|:---:|:---|:---|:---|:---:|:---|
-| **1.1** | 🐘 [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | Core PHP 8.5+ — variables, types, functions, arrays, web basics. **No OOP.** | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | **0 / 30** lectures | 🎯 **Current focus** |
-| **1.2** | 🧩 [php-oop](https://github.com/galhoom-path/php-oop) | Object-oriented PHP — classes, interfaces, traits, enums, exceptions, namespaces, PHPUnit | `[████████░░░░░░░░░░░░] **39%**` | **12 / 31** lectures | ⏸️ After **1.1** |
-| **1.3** | 🎯 `php-ood` | Object-oriented design — SOLID, GRASP, and design principles on top of OOP | `[░░░░░░░░░░░░░░░░░░░░] **—**` | — | ⬜ Planned |
-| **1.4** | 🎨 `php-design-patterns` | Design patterns — creational, structural, and behavioral (after OOD) | `[░░░░░░░░░░░░░░░░░░░░] **—**` | — | ⬜ Planned |
-| **1.5+** | 🛠️ Laravel, Filament, tooling, backend stack… | Same method, next subjects in the path | `[░░░░░░░░░░░░░░░░░░░░] **—**` | — | ⬜ Planned |
+| ID | Repository | What you learn | Progress | Progress bar | Complete? | Status |
+|:---:|:---|:---|:---:|:---|:---:|:---|
+| **1.1** | 🐘 [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | Core PHP 8.5+ — variables, types, functions, arrays, web basics. **No OOP.** | **0 / 30** lectures | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | 🎯 **Current focus** |
+| **1.2** | 🧩 [php-oop](https://github.com/galhoom-path/php-oop) | Object-oriented PHP — classes, interfaces, traits, enums, exceptions, namespaces, PHPUnit | **12 / 31** lectures | `[████████░░░░░░░░░░░░] **39%**` | ⬜ | ⏸️ After **1.1** |
+| **1.3** | 🎯 `php-ood` | Object-oriented design — SOLID, GRASP, and design principles on top of OOP | — | `[░░░░░░░░░░░░░░░░░░░░] **—**` | ⬜ | ⬜ Planned |
+| **1.4** | 🎨 `php-design-patterns` | Design patterns — creational, structural, and behavioral (after OOD) | — | `[░░░░░░░░░░░░░░░░░░░░] **—**` | ⬜ | ⬜ Planned |
+| **1.5+** | 🛠️ Laravel, Filament, tooling, backend stack… | Same method, next subjects in the path | — | `[░░░░░░░░░░░░░░░░░░░░] **—**` | ⬜ | ⬜ Planned |
 
 > 🧭 **Series rule:** a topic taught in one Study repo is **never** re-taught in another.  
 > 🎯 **Right now:** complete **1.1** before **1.2**.
@@ -207,11 +224,12 @@ Global Study blueprint: **[study-template](https://github.com/galhoom-path/study
 > **Not** language/framework curriculum (PHP, Laravel, … stay in Track **1**).  
 > Read notes in folder order; deepen the language stack in Study separately.
 
-| ID | Repository | Focus | Progress bar | Done | Status |
-|:---:|:---|:---|:---|:---:|:---|
-| **2.1** | 🧭 [backend-engineering](https://github.com/galhoom-path/backend-engineering) | Ordered notes: core backend → data → OS/networking/CS → API craft → system design → Linux/Docker/K8s/DevOps → practice | `[████████████████████] **notes ready**` | **234** notes published | ⏸️ After Track **1** progress |
+| ID | Repository | Focus | Progress | Progress bar | Complete? | Status |
+|:---:|:---|:---|:---:|:---|:---:|:---|
+| **2.1** | 🧭 [backend-engineering](https://github.com/galhoom-path/backend-engineering) | Ordered notes: core backend → data → OS/networking/CS → API craft → system design → Linux/Docker/K8s/DevOps → practice | Notes scaffolded · **not 100%** | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | ⏸️ After Track **1** progress |
 
-**Method:** concepts that still matter when you switch languages — then return to Study or move to Track **3**.
+**Method:** concepts that still matter when you switch languages — then return to Study or move to Track **3**.  
+**Reminder:** files on disk ≠ finished. No `✅` until the maintainer marks **100%**.
 
 ---
 
@@ -226,10 +244,10 @@ Global Study blueprint: **[study-template](https://github.com/galhoom-path/study
 1. **3.1** — PHP gates (same language as Study · build fluency)  
 2. **3.2** — Pareto LeetCode set (interview patterns · C++ depth)
 
-| ID | Repository | Focus | Progress bar | Done | Status |
-|:---:|:---|:---|:---|:---:|:---|
-| **3.1** | ⚔️ [php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) | PHP 8.5 DSA gym — 238 Gate stubs (E→S), Hunter Solves First. Learn + Solve | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | **0 / 238** gates | ⏸️ After Track **2** |
-| **3.2** | 🧮 [LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) | 49 essential LeetCode problems · Brute Force → Optimized → Optimal (C++) + flowchart | `[█░░░░░░░░░░░░░░░░░░░] **2%**` | **1 / 49** problems | ⏸️ After **3.1** (patterns after PHP fluency) |
+| ID | Repository | Focus | Progress | Progress bar | Complete? | Status |
+|:---:|:---|:---|:---:|:---|:---:|:---|
+| **3.1** | ⚔️ [php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) | PHP 8.5 DSA gym — 238 Gate stubs (E→S), Hunter Solves First. Learn + Solve | **0 / 238** gates | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | ⏸️ After Track **2** |
+| **3.2** | 🧮 [LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) | 49 essential LeetCode problems · Brute Force → Optimized → Optimal (C++) + flowchart | **1 / 49** problems | `[█░░░░░░░░░░░░░░░░░░░] **2%**` | ⬜ | ⏸️ After **3.1** (patterns after PHP fluency) |
 
 **Method:** fluency first (**3.1**), then pattern depth (**3.2**) — not racing through unread solutions.
 
@@ -246,9 +264,9 @@ Standalone **interview answer banks** from real interviews — not lecture check
 > Separate from `02-Interview-Questions/` inside Study repos (**1.x**).  
 > Uneven topic counts are intentional: only questions actually asked.
 
-| ID | Repository | Focus | Progress bar | Done | Status |
-|:---:|:---|:---|:---|:---:|:---|
-| **4.1** | 🎤 [technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions) | PHP / Laravel backend **answer bank** — real questions from interviews sat by [@Galhoom22](https://github.com/Galhoom22). PHP 8.5 · Laravel 13 | `[████████████████████] **bank ready**` | **46** answers published | ⏸️ After Track **3** |
+| ID | Repository | Focus | Progress | Progress bar | Complete? | Status |
+|:---:|:---|:---|:---:|:---|:---:|:---|
+| **4.1** | 🎤 [technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions) | PHP / Laravel backend **answer bank** — real questions from interviews sat by [@Galhoom22](https://github.com/Galhoom22). PHP 8.5 · Laravel 13 | Answers drafted · **not 100%** | `[░░░░░░░░░░░░░░░░░░░░] **0%**` | ⬜ | ⏸️ After Track **3** |
 
 ---
 
@@ -262,9 +280,9 @@ Production and portfolio applications — work you show in a hiring conversation
 > Separate from `03-Final-Project/` inside Study repos (**1.x**).  
 > Study capstones teach a subject. **Projects** are shipped (or shippable) apps with a real domain.
 
-| ID | Repository | Focus | Progress bar | Done | Status |
-|:---:|:---|:---|:---|:---:|:---|
-| **5.1** | ⚡ [energy-conversion](https://github.com/galhoom-path/energy-conversion) | Energy metering & billing API — meters, tariffs, reconciliation (Laravel) | `[████░░░░░░░░░░░░░░░░] **~20%**` | **~1 / 5** epics | ⏸️ After Track **4** |
+| ID | Repository | Focus | Progress | Progress bar | Complete? | Status |
+|:---:|:---|:---|:---:|:---|:---:|:---|
+| **5.1** | ⚡ [energy-conversion](https://github.com/galhoom-path/energy-conversion) | Energy metering & billing API — meters, tariffs, reconciliation (Laravel) | **~1 / 5** epics | `[████░░░░░░░░░░░░░░░░] **~20%**` | ⬜ | ⏸️ After Track **4** |
 
 **Method:** build for a real problem, keep architecture honest, document what a visitor should open first. Showcase projects may live under the org or under [@Galhoom22](https://github.com/Galhoom22) until moved into `galhoom-path`.
 
@@ -282,6 +300,8 @@ Production and portfolio applications — work you show in a hiring conversation
 | **6** | 🏗️ **Projects last** | Portfolio apps come after skills + concepts + practice |
 | **7** | 🤝 **Public and reusable** | Others can follow the same path |
 | **8** | 🎯 **One focus at a time** | Finish **1.1** before spreading across later tracks |
+| **9** | ✅ **Complete only at 100%** | `✅` appears only when the maintainer marks a repo finished for the current curriculum |
+| **10** | 🔄 **Living updates** | After `✅`, version bumps (e.g. PHP **8.5 → 8.6**) still land in the **same** repo |
 
 ---
 
