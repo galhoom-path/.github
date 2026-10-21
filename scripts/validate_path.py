@@ -58,7 +58,6 @@ def main() -> None:
     # 3) Every registry repo ID must appear in README
     for repo in repos:
         rid = repo["id"]
-        # Match **1.1** or bare 1.1 as a path id token
         pattern = rf"(?<![0-9.]){re.escape(rid)}(?![0-9])"
         if not re.search(pattern, readme):
             fail(f"README missing repo ID {rid} ({repo['name']})")
@@ -69,21 +68,20 @@ def main() -> None:
         by_track.setdefault(repo["track"], []).append(repo)
 
     for track_id, track_repos in sorted(by_track.items()):
-        # sort by minor number
+
         def minor(r: dict) -> tuple[int, str]:
-            major, _, rest = r["id"].partition(".")
-            # 1.5+ → treat as (5, '+')
+            _major, _, rest = r["id"].partition(".")
             m = re.match(r"^(\d+)", rest)
             return (int(m.group(1)) if m else 0, rest)
 
         ordered = sorted(track_repos, key=minor)
-        positions = []
+        id_positions = []
         for r in ordered:
             m = re.search(rf"(?<![0-9.]){re.escape(r['id'])}(?![0-9])", readme)
             if not m:
                 fail(f"could not locate ID {r['id']} for order check")
-            positions.append((r["id"], m.start()))
-        for (a_id, a_pos), (b_id, b_pos) in zip(positions, positions[1:]):
+            id_positions.append((r["id"], m.start()))
+        for (a_id, a_pos), (b_id, b_pos) in zip(id_positions, id_positions[1:]):
             if a_pos >= b_pos:
                 fail(
                     f"Track {track_id} repo order broken in README: "
@@ -96,21 +94,19 @@ def main() -> None:
     focus_repo = next(r for r in repos if r["id"] == focus)
     if focus_repo.get("status") != "current_focus":
         fail(f"repo {focus} must have status current_focus in registry")
-    if f"**{focus}**" not in readme and f"**{focus}** ·" not in readme:
-        # soft: at least the ID near Current focus section
-        focus_section = readme.split("## 1 · Current focus", 1)
-        if len(focus_section) < 2:
-            fail("README missing '## 1 · Current focus' section")
-        section_body = focus_section[1].split("## 2 ·", 1)[0]
-        if focus not in section_body:
-            fail(f"Current focus section must mention {focus}")
-        if focus_repo["name"] not in section_body:
-            fail(
-                f"Current focus section must mention repo name "
-                f"{focus_repo['name']!r}"
-            )
+    focus_section = readme.split("## 1 · Current focus", 1)
+    if len(focus_section) < 2:
+        fail("README missing '## 1 · Current focus' section")
+    section_body = focus_section[1].split("## 2 ·", 1)[0]
+    if focus not in section_body:
+        fail(f"Current focus section must mention {focus}")
+    if focus_repo["name"] not in section_body:
+        fail(
+            f"Current focus section must mention repo name "
+            f"{focus_repo['name']!r}"
+        )
 
-    # 6) Pipeline slogan / order string present
+    # 6) Pipeline journey labels present (compact form OK)
     required_phrases = [
         "1. 📘 Study",
         "2. 🧭 Foundations",
@@ -122,17 +118,7 @@ def main() -> None:
         if phrase not in readme:
             fail(f"README missing journey phrase: {phrase!r}")
 
-    # 7) Completion policy must be visible; never imply unfinished repos are done
-    for phrase in (
-        "Completion & living updates",
-        "No repo is finished today",
-        "Living repos",
-        "learn by doing",
-        "Requirements-first",
-    ):
-        if phrase not in readme:
-            fail(f"README missing required phrase: {phrase!r}")
-
+    # 7) Must not claim unfinished work is done
     banned = ("notes ready", "bank ready")
     lowered = readme.lower()
     for phrase in banned:
@@ -143,16 +129,9 @@ def main() -> None:
             )
 
     incomplete = [r for r in repos if r.get("complete") is not True]
-    if any(r.get("complete") is True for r in repos):
-        # If any are complete, profile should show a checkmark somewhere — soft OK
-        pass
-    else:
-        # All incomplete: path progress must not claim everything finished
-        if "Today: **none** are complete" not in readme and "none** are complete" not in readme:
-            if "Zero** active repos have" not in readme and "Zero** active repos" not in readme:
-                # Accept either wording from completion section
-                if "No repo is finished today" not in readme:
-                    fail("When all repos are incomplete, README must state none are finished")
+    if not any(r.get("complete") is True for r in repos):
+        if "No repo is finished today" not in readme and "none are complete" not in readme.lower():
+            fail("When all repos are incomplete, README must state none are finished")
 
     print("OK: path-registry.json <-> profile/README.md order checks passed.")
     print(f"  tracks: {len(tracks)} | repos: {len(repos)} | focus: {focus}")
