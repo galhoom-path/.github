@@ -1,6 +1,7 @@
 # 🛤️ Galhoom Path
 
 Backend craft pipeline — one order, official sources, you do the work.  
+**This page is the map.** Guides, lectures, and depth live inside each repo.  
 Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
 
 ```text

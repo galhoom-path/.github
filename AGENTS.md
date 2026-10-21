@@ -2,6 +2,16 @@
 
 This repository owns the **organization profile** and the **canonical path order**.
 
+## Profile surface rule (org + personal)
+
+| Surface | Job | Keep out |
+|:---|:---|:---|
+| **Org homepage** (`profile/README.md`) | High-level map: journey, IDs, priority, links | Lectures, how-to guides, long essays, per-repo curricula |
+| **Personal profile** (`Galhoom22/Galhoom22`) | Engineer-facing: who you are, selected work, one path sketch | Study dashboards, progress bars, method dumps |
+| **Each subject / track repo** | Full detail: READMEs, lectures, maps, milestones | Nothing required on the org/personal face |
+
+**Rule:** org and personal profiles answer *what is this / where do I go next?* Full teaching and implementation live **inside each repo**. Prefer cutting copy over adding sections. When in doubt, link to the repo instead of explaining it here.
+
 ## Before you create or place any `galhoom-path` repo
 
 1. Read **`path-registry.json`** (source of truth).
