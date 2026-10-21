@@ -7,6 +7,7 @@
 | Path | Role |
 |:---|:---|
 | [`profile/README.md`](./profile/README.md) | Org profile (rendered on [github.com/galhoom-path](https://github.com/galhoom-path)) |
+| [`GITHUB_SURFACES.md`](./GITHUB_SURFACES.md) | Org + personal + pins / About rules — **read before editing faces** |
 | [`path-registry.json`](./path-registry.json) | Source of truth for track order and repo IDs |
 | [`AGENTS.md`](./AGENTS.md) | Rules for AI / maintainers placing new repos |
 | [`scripts/validate_path.py`](./scripts/validate_path.py) | CI check: registry ↔ profile stay aligned |

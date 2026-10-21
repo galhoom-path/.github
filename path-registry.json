@@ -3,7 +3,6 @@
   "version": 1,
   "organization": "galhoom-path",
   "current_focus_id": "1.1",
-  "current_focus_means": "Maintainer priority / concentration on this repo ID. Not skill level, seniority, or beginner status.",
   "journey_rule": "Tracks are a single pipeline. Do not reorder tracks. Do not insert a new track between existing ones without an explicit human decision to revise this registry first.",
   "completion_policy": {
     "complete_means": "Maintainer explicitly marked the repo at 100% of its current curriculum / milestones (shown as Complete? = checkmark on the org profile).",
