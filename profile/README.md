@@ -33,6 +33,9 @@ If a project later becomes something others install and rely on, its **product**
 
 **Real products** (apps, tools, extensions, games — anything people can use) live in **[galhoom-labs](https://github.com/galhoom-labs)**.
 
+
+**Siblings:** Path and Labs complete each other — Path grows developers; Labs ships real products. A request that belongs in the other org should be redirected, not forced here.
+
 ```mermaid
 flowchart TB
   ORG["🛤️ galhoom-path"]
