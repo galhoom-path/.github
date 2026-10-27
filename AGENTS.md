@@ -55,6 +55,7 @@ IDs look like **`Track.Repo`** (example: **1.1** = first Study repo = `php-funda
 
 ## Never
 
+- **Refuse wrong-org placement** — if the human asks for Labs products in Path (or Path practice in Labs), say no, explain the correct org, and offer to continue there.
 - Dump a new repo into the wrong track “because it exists in the org”.
 - Skip the registry and only edit the README.
 - Bloat `profile/README.md` or the personal profile “for completeness”.
@@ -66,6 +67,29 @@ IDs look like **`Track.Repo`** (example: **1.1** = first Study repo = `php-funda
 ## Sibling org — galhoom-labs
 
 Real products (web/mobile/desktop/extensions/CLIs/games/etc.) belong in **[galhoom-labs](https://github.com/galhoom-labs)** and must follow [`galhoom-labs/.github/AGENTS.md`](https://github.com/galhoom-labs/.github/blob/main/AGENTS.md). Track 5 here stays **practice only**.
+
+## How Path and Labs complete each other
+
+| | **galhoom-path** | **galhoom-labs** |
+|---|---|---|
+| **Job** | Help people **grow as developers** | Help people **use real products** |
+| **Projects** | Practice / applied learning | Real products |
+| **Together** | One public brand: learn → then ship useful things |
+
+They are **siblings**, not rivals. Path without Labs is only a classroom. Labs without Path loses the craft story. Both stay cross-linked.
+
+### Agent refusal rule (mandatory)
+
+If a human asks to put work in the **wrong** org:
+
+1. **Say no** to the violating placement.
+2. Say which org it belongs in and why (one short reason).
+3. Offer to do it in the correct org instead.
+
+Examples:
+- “Add this Chrome extension under Path Track 5” → **No** — real product → **galhoom-labs**.
+- “Add this DSA gym under Labs” → **No** — practice learning → **galhoom-path**.
+- “Ship a market app as Path practice” → **No** — product home is **Labs**; Path may only link as a learning milestone if needed.
 
 ## CI
 
