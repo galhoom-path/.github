@@ -14,7 +14,7 @@ Backend craft pipeline — one ordered path. You do the work.
 | Interview prep | Shipped SaaS / product home |
 | Track 5 **practice** builds | The workshop for public tools |
 
-Real tools and products live in **[galhoom-labs](https://github.com/galhoom-labs)**.
+Tools, CLIs, and products live in **[galhoom-labs](https://github.com/galhoom-labs)**.
 
 ```mermaid
 flowchart TB
