@@ -19,7 +19,17 @@ If you open **galhoom-path**, you are here to:
 | A learning roadmap | A product store |
 | Study materials & curricula | Web / mobile / desktop products |
 | Foundations, DSA, interview prep | Chrome extensions, games, CLIs for users |
-| Practice projects to learn from | Things other people install and rely on |
+| **Practice / applied projects** (hands-on to grow) | Real products others install and use |
+
+### Projects in this org
+
+Repos here are **practice / applied learning projects**.
+
+- **Goal:** grow your skills — get your hands dirty, apply what you studied, build confidence.
+- They are exercises on the path, **not** products for other people to adopt.
+- Mindset: *“I built this to learn.”*
+
+If a project later becomes something others install and rely on, its **product** home moves to **[galhoom-labs](https://github.com/galhoom-labs)** (Path can still link to it as a learning milestone).
 
 **Real products** (apps, tools, extensions, games — anything people can use) live in **[galhoom-labs](https://github.com/galhoom-labs)**.
 
@@ -53,4 +63,4 @@ flowchart TB
 
 </div>
 
-**Promise in one line:** Path = learn & grow. Labs = real products.
+**Promise in one line:** Path = learn & grow (practice projects). Labs = real products.
