@@ -63,6 +63,10 @@ IDs look like **`Track.Repo`** (example: **1.1** = first Study repo = `php-funda
 - Imply any repo is finished without `complete: true` + profile `✅`.
 - Put real market / client / user-facing production work in Track 5 (those stay **private**). Track 5 is **practice only**, always **public**, and must include **requirements** (written and/or API contract) so others can rebuild without the reference solution.
 
+## Sibling org — galhoom-labs
+
+Real products (web/mobile/desktop/extensions/CLIs/games/etc.) belong in **[galhoom-labs](https://github.com/galhoom-labs)** and must follow [`galhoom-labs/.github/AGENTS.md`](https://github.com/galhoom-labs/.github/blob/main/AGENTS.md). Track 5 here stays **practice only**.
+
 ## CI
 
 GitHub Actions runs **`Validate Galhoom Path order`** on changes to the registry or profile README. A red check means the order is wrong — fix registry + README until `python scripts/validate_path.py` prints `OK`.
