@@ -1,90 +1,49 @@
-# 🛤️ Galhoom Path
+# Galhoom Path
 
-Backend craft pipeline — one order, official sources, you do the work.  
-**This page is the map.** Guides, lectures, and depth live inside each repo.  
-Maintained by [**@Galhoom22**](https://github.com/Galhoom22).
+**Learn and progress.**
 
-```text
-1. 📘 Study  →  2. 🧭 Foundations  →  3. 🧠 Problem Solving  →  4. 🎤 Interview Prep  →  5. 🏗️ Projects
+Backend craft pipeline — one ordered path. You do the work.
+
+> Study → Foundations → Solve → Interview → Practice
+
+| This org IS | This org is NOT |
+|---|---|
+| Study materials & curricula | A product catalog |
+| Engineering foundations | Reusable packages for npm/Composer |
+| Problem-solving & DSA gyms | General-purpose tools for anyone |
+| Interview prep | Shipped SaaS / product home |
+| Track 5 **practice** builds | The workshop for public tools |
+
+Real tools and products live in **[galhoom-labs](https://github.com/galhoom-labs)**.
+
+```mermaid
+flowchart TB
+  ORG["🛤️ galhoom-path"]
+  ORG --> S["1 · 📘 Study"]
+  ORG --> F["2 · 🧭 Foundations"]
+  ORG --> P["3 · 🧠 Problem Solving"]
+  ORG --> I["4 · 🎤 Interview Prep"]
+  ORG --> R["5 · 🏗️ Practice builds"]
+  S --> S1["1.1 php-fundamentals"]
+  S --> S2["1.2 php-oop → …"]
+  F --> F1["2.1 backend-engineering"]
+  P --> P1["3.1 php-problem-solving"]
+  P --> P2["3.2 LeetCode-DSA"]
+  I --> I1["4.1 technical-interview-questions"]
+  R --> R1["5.1 energy-conversion"]
+
+  classDef org fill:#fef3c7,stroke:#d97706,color:#78350f,stroke-width:2px
+  classDef track fill:#dbeafe,stroke:#1d4ed8,color:#1e3a8a,stroke-width:2px
+  classDef repo fill:#f0fdf4,stroke:#15803d,color:#14532d,stroke-width:2px
+  class ORG org
+  class S,F,P,I,R track
+  class S1,S2,F1,P1,P2,I1,R1 repo
 ```
 
-Inside every Study repo: **Lectures → Interviews → Visual Maps → Final Project** · blueprint: [study-template](https://github.com/galhoom-path/study-template)
+<div align="center">
 
-> **Don’t mix:** Study’s interview folder ≠ Track 4 · Study’s final project ≠ Track 5 · Track 5 = public practice, not market products.
+**[Open galhoom-labs →](https://github.com/galhoom-labs)** · Build and share useful things
 
----
+</div>
 
-## 1 · Current focus
-
-**Priority (where work concentrates now):** [**1.1** · php-fundamentals](https://github.com/galhoom-path/php-fundamentals) · **0 / 30** lectures · ⬜  
-Path order: finish **1.1** before advancing.
-
----
-
-## 2 · Path progress
-
-IDs = **Track.Repo**. **Complete? = ✅ only at 100%.** No repo is finished today.
-
-| ID | Repository | Progress | Status |
-|:---:|:---|:---:|:---|
-| **1.1** | [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | 0 / 30 | 🎯 priority |
-| **1.2** | [php-oop](https://github.com/galhoom-path/php-oop) | 12 / 31 | after 1.1 |
-| **2.1** | [backend-engineering](https://github.com/galhoom-path/backend-engineering) | not 100% | after Track 1 |
-| **3.1** | [php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) | 0 / 238 | after Track 2 |
-| **3.2** | [LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) | 1 / 49 | after 3.1 |
-| **4.1** | [technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions) | not 100% | after Track 3 |
-| **5.1** | [energy-conversion](https://github.com/galhoom-path/energy-conversion) | ~20% | after Track 4 |
-
-Registry / CI: [`path-registry.json`](https://github.com/galhoom-path/.github/blob/main/path-registry.json) · [`AGENTS.md`](https://github.com/galhoom-path/.github/blob/main/AGENTS.md)
-
----
-
-## Track 1 — Study
-
-Deep subject curricula in series order. Planned next: **1.3** `php-ood` · **1.4** `php-design-patterns`.
-
-| ID | Repo |
-|:---:|:---|
-| **1.1** | [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) |
-| **1.2** | [php-oop](https://github.com/galhoom-path/php-oop) |
-
----
-
-## Track 2 — Foundations
-
-Stack-agnostic backend concepts (not a language course).
-
-| ID | Repo |
-|:---:|:---|
-| **2.1** | [backend-engineering](https://github.com/galhoom-path/backend-engineering) |
-
----
-
-## Track 3 — Problem Solving
-
-PHP fluency first, then interview patterns.
-
-| ID | Repo |
-|:---:|:---|
-| **3.1** | [php-problem-solving-solo-leveling](https://github.com/galhoom-path/php-problem-solving-solo-leveling) |
-| **3.2** | [LeetCode-DSA-Pareto-Set](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) |
-
----
-
-## Track 4 — Interview Prep
-
-Real interview answer bank (≠ Study’s subject interview folder).
-
-| ID | Repo |
-|:---:|:---|
-| **4.1** | [technical-interview-questions](https://github.com/galhoom-path/technical-interview-questions) |
-
----
-
-## Track 5 — Projects
-
-Public **learn by doing** builds · **Requirements-first** · not market products.
-
-| ID | Repo |
-|:---:|:---|
-| **5.1** | [energy-conversion](https://github.com/galhoom-path/energy-conversion) |
+**Promise in one line:** Path = learn. Labs = ship useful things.
