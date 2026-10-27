@@ -2,19 +2,26 @@
 
 **Learn and progress.**
 
-Backend craft pipeline — one ordered path. You do the work.
+This organization is for **studying and leveling up** — not for shipped products.
 
-> Study → Foundations → Solve → Interview → Practice
+If you open **galhoom-path**, you are here to:
+- Study fundamentals and craft
+- Build foundations
+- Practice problem-solving & DSA
+- Prepare for interviews
+- Do **practice** builds to learn (not to ship)
+
+> One ordered path: **Study → Foundations → Solve → Interview → Practice**  
+> You do the work. The goal is *your growth*.
 
 | This org IS | This org is NOT |
 |---|---|
-| Study materials & curricula | A product catalog |
-| Engineering foundations | Reusable packages for npm/Composer |
-| Problem-solving & DSA gyms | General-purpose tools for anyone |
-| Interview prep | Shipped SaaS / product home |
-| Track 5 **practice** builds | The workshop for public tools |
+| A learning roadmap | A product store |
+| Study materials & curricula | Web / mobile / desktop products |
+| Foundations, DSA, interview prep | Chrome extensions, games, CLIs for users |
+| Practice projects to learn from | Things other people install and rely on |
 
-Tools, CLIs, and products live in **[galhoom-labs](https://github.com/galhoom-labs)**.
+**Real products** (apps, tools, extensions, games — anything people can use) live in **[galhoom-labs](https://github.com/galhoom-labs)**.
 
 ```mermaid
 flowchart TB
@@ -42,8 +49,8 @@ flowchart TB
 
 <div align="center">
 
-**[Open galhoom-labs →](https://github.com/galhoom-labs)** · Build and share useful things
+**[Open galhoom-labs →](https://github.com/galhoom-labs)** · Real products you can use
 
 </div>
 
-**Promise in one line:** Path = learn. Labs = ship useful things.
+**Promise in one line:** Path = learn & grow. Labs = real products.
