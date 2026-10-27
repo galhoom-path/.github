@@ -119,3 +119,14 @@ Never invent Track numbers from memory. Prefer **craft curriculum** wording over
 - No claiming a repo is finished without `complete: true` + org `✅`
 - No Track 5 market/client products on the public org list
 - No bloating org/personal READMEs “for completeness” — completeness belongs in the subject repo
+
+---
+
+## 8. Sibling org — galhoom-labs (do not ignore)
+
+**[galhoom-labs](https://github.com/galhoom-labs)** holds **real products**. Path holds **learn / practice**.
+
+- Do **not** place Labs products under Path Track 5.
+- Do **not** place Path practice-only projects in Labs.
+- Personal profile is intentionally a **two-home** page (Path section + Labs section). Labs has its own Mermaid + CTA. That overrides older “single Mermaid / single org CTA only” wording above when Labs is in scope.
+- Labs rules live in [`galhoom-labs/.github`](https://github.com/galhoom-labs/.github) (`AGENTS.md`, `GITHUB_SURFACES.md`, `labs-registry.json`).
