@@ -130,3 +130,18 @@ Never invent Track numbers from memory. Prefer **craft curriculum** wording over
 - Do **not** place Path practice-only projects in Labs.
 - Personal profile is intentionally a **two-home** page (Path section + Labs section). Labs has its own Mermaid + CTA. That overrides older “single Mermaid / single org CTA only” wording above when Labs is in scope.
 - Labs rules live in [`galhoom-labs/.github`](https://github.com/galhoom-labs/.github) (`AGENTS.md`, `GITHUB_SURFACES.md`, `labs-registry.json`).
+
+
+## Complement + refusal (Path ↔ Labs)
+
+**galhoom-path** and **galhoom-labs** are complementary faces of one public brand:
+
+1. People benefit as **developers** (Path — learn, practice, hands dirty).
+2. People benefit as **users** (Labs — real products they can use).
+
+Agents **must refuse** wrong-org placement and redirect:
+
+- Learning / practice / interview / DSA → **galhoom-path**
+- Real usable product → **galhoom-labs**
+
+Do not silently put work in the wrong org to “just ship the ask.”
