@@ -26,3 +26,9 @@ When the task touches **Galhoom22**, **galhoom-path**, org/personal profile READ
 - Visual Maps Mermaid must pass **GitHub file-view** acceptance (see study `template.md` / Visual Maps Diagram Standards).
 
 If a requested edit would violate these, refuse the violating part and keep the surface compliant.
+
+## Sibling: galhoom-labs
+
+When the task is a **real product** (usable app/CLI/extension/game/etc.): place it under **galhoom-labs** and obey `galhoom-labs/.github` rules (`AGENTS.md`, `GITHUB_SURFACES.md`, `labs-registry.json`).
+
+Personal profile may show **both** Path and Labs (two Mermaids + two CTAs). Do not strip Labs to enforce an older single-CTA shape.
