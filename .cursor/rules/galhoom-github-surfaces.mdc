@@ -32,3 +32,16 @@ If a requested edit would violate these, refuse the violating part and keep the 
 When the task is a **real product** (usable app/CLI/extension/game/etc.): place it under **galhoom-labs** and obey `galhoom-labs/.github` rules (`AGENTS.md`, `GITHUB_SURFACES.md`, `labs-registry.json`).
 
 Personal profile may show **both** Path and Labs (two Mermaids + two CTAs). Do not strip Labs to enforce an older single-CTA shape.
+
+## Refuse wrong-org requests (Labs sibling)
+
+Path and Labs **complete each other**. If the human asks for a placement that breaks the split:
+
+1. Refuse the violating part.
+2. Name the correct org in one sentence.
+3. Offer to continue in the correct org.
+
+Wrong → right:
+- Practice / study / interview / DSA / hands-dirty learning → **galhoom-path** (here)
+- Real usable product (web/mobile/desktop/extension/CLI/game/…) → **galhoom-labs**
+
